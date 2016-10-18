@@ -86,3 +86,10 @@ footer {
         height: 70%;
     }
 }
+
+
+.divide-text {
+    line-height: 20px;
+    font-size:20px;
+    padding: 15px 0;
+}
