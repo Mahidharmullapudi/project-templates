@@ -28,171 +28,221 @@
 </head>
 
 <body>
-
-<!-- Navigation -->
-<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-    <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse"
-                    data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="index.html"> Agriculture stamp </a>
-        </div>
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-                <li>
-                    <a href="about.html">About</a>
-                </li>
-                <li>
-                    <a href="contact.html">Contact</a>
-                </li>
-
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Notices <b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                        <li>
-                            <a href="blog-home-1.html">NJDA Notices</a>
-                        </li>
-                        <li>
-                            <a href="blog-home-2.html">Services Notices</a>
-                        </li>
-                    </ul>
-                </li>
-
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Account <b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                        <li>
-                            <a href="full-width.html">View Profile</a>
-                        </li>
-                        <li>
-                            <a href="sidebar.html">Settings</a>
-                        </li>
-                        <li>
-                            <a href="faq.html">FAQ</a>
-                        </li>
-                    </ul>
-                </li>
-
-            </ul>
-        </div>
-        <!-- /.navbar-collapse -->
-    </div>
-    <!-- /.container -->
-</nav>
-
-<div class="divide-nav">
-    <div class="container">
-        <p class="divide-text"> School Nutrition Electronic Application Reimbursement System (SNEARS) </p>
-    </div>
-</div>
-<!-- Second navbar -->
-<nav class="navbar navbar-default navbar-lower" role="navigation">
-    <div class="container">
-        <div class="collapse navbar-collapse collapse-buttons">
-            <ul class="nav navbar-nav navbar-left">
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-                <li>
-                    <a href="contact.html">Program Administration</a>
-                </li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">LEA Management <b class="caret"></b></a>
-                </li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Resources <b class="caret"></b></a>
-                </li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Reports <b class="caret"></b></a>
-                </li>
-            </ul>
-
-            <ul class="nav navbar-nav navbar-right">
-
-                <li>
-                    <a href="contact.html">Help</a>
-                </li>
-                <li>
-                    <a href="contact.html">Settings</a>
-                </li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Account <b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                        <li>
-                            <a href="full-width.html">View Profile</a>
-                        </li>
-                        <li>
-                            <a href="sidebar.html">Update Account Info</a>
-                        </li>
-                        <li>
-                            <a href="faq.html"> Logout</a>
-                        </li>
-                    </ul>
-
-                </li>
-            </ul>
-        </div>
-    </div>
-</nav>
-<!-- Page Content -->
-<div class="container">
-    <!-- Page Heading/Breadcrumbs -->
-    <div class="row">
-        <div class="col-lg-12">
-            <h1 class="page-header">SNEARS Home
-                <small></small>
-            </h1>
-            <ol class="breadcrumb">
-                <li><a href="index.html">Home</a>
-                </li>
-                <li class="active">SNEARS LTP</li>
-            </ol>
-        </div>
-    </div>
-    <!-- /.row -->
-
-    <!-- Content Row -->
-    <div class="row">
-        <!-- Sidebar Column -->
-        <div class="col-md-3">
-            <div class="list-group">
-                <a href="index.html" class="list-group-item">Home</a>
-                <a href="about.html" class="list-group-item">LEA Info</a>
-                <a href="services.html" class="list-group-item">ScheduleA</a>
-                <a href="contact.html" class="list-group-item">Site Details</a>
-                <a href="contact.html" class="list-group-item">Manual Documents</a>
-                <a href="" class="list-group-item"> Reminders </a>
-                <a href="contact.html" class="list-group-item"> Resources </a>
+<div id="wrapper">
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Toggle Menu</a>
+                <a class="navbar-brand" href="index.html"> Agriculture stamp </a>
             </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Notices <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="blog-home-1.html">NJDA Notices</a>
+                            </li>
+                            <li>
+                                <a href="blog-home-2.html">Services Notices</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Account <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="full-width.html">View Profile</a>
+                            </li>
+                            <li>
+                                <a href="sidebar.html">Settings</a>
+                            </li>
+                            <li>
+                                <a href="faq.html">FAQ</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
         </div>
-        <!-- Content Column -->
-        <div class="col-md-9">
-            <h2>Letter To Parent</h2>
-            <p>Please fill in all the information on the form and then submit it to proceed to next options. </p>
+        <!-- /.container -->
+        <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse" id="sidebar-wrapper">
+            <ul class="nav navbar-nav side-nav">
+                <li class="active">
+                    <a href="snearsHome.html"><i class="fa fa-fw fa-dashboard"></i> SNEARS </a>
+                </li>
+                <li>
+                    <a href="charts.html"><i class="fa fa-fw fa-bar-chart-o"></i> Direct Certification</a>
+                </li>
+                <li>
+                    <a href="tables.html"><i class="fa fa-fw fa-table"></i> Reimbursement </a>
+                </li>
+                <li>
+                    <a href="forms.html"><i class="fa fa-fw fa-edit"></i> FFVP </a>
+                </li>
+                <li>
+                    <a href="bootstrap-elements.html"><i class="fa fa-fw fa-desktop"></i> SSO </a>
+                </li>
+                <li>
+                    <a href="bootstrap-grid.html"><i class="fa fa-fw fa-wrench"></i> Food Distribution </a>
+                </li>
+                <li>
+                    <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i
+                            class="fa fa-fw fa-arrows-v"></i> Configuration <i class="fa fa-fw fa-caret-down"></i></a>
+                    <ul id="demo" class="collapse">
+                        <li>
+                            <a href="#"> Item1 </a>
+                        </li>
+                        <li>
+                            <a href="#"> Item2 </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="divide-nav">
+        <div class="container">
+            <p class="divide-text"> School Nutrition Electronic Application Reimbursement System (SNEARS) </p>
         </div>
     </div>
-    <!-- /.row -->
-    <hr>
-    <!-- Footer -->
-    <footer>
-        <div class="row">
-            <div class="col-lg-12">
-                <p>Copyright &copy; Mahidhar Mullapudi 2016</p>
+
+    <div id="page-wrapper">
+        <!-- Second navbar -->
+        <nav class="navbar navbar-default navbar-lower" role="navigation">
+            <div class="container">
+                <div class="collapse navbar-collapse collapse-buttons">
+                    <ul class="nav navbar-nav navbar-left">
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Program Administration</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">LEA Management <b
+                                    class="caret"></b></a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Resources <b class="caret"></b></a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Reports <b
+                                    class="caret"></b></a>
+                        </li>
+                    </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="contact.html">Help</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Settings</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Account <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="full-width.html">View Profile</a>
+                                </li>
+                                <li>
+                                    <a href="sidebar.html">Update Account Info</a>
+                                </li>
+                                <li>
+                                    <a href="faq.html"> Logout</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
             </div>
+        </nav>
+        <!-- Page Content -->
+        <div class="container">
+            <!-- Page Heading/Breadcrumbs -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="page-header">SNEARS Home
+                        <small></small>
+                    </h1>
+                    <ol class="breadcrumb">
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li class="active">SNEARS LTP</li>
+                    </ol>
+                </div>
+            </div>
+            <!-- /.row -->
+            <!-- Content Row -->
+            <div class="row">
+                <!-- Sidebar Column -->
+                <div class="col-md-3">
+                    <div class="list-group">
+                        <a href="index.html" class="list-group-item">Home</a>
+                        <a href="about.html" class="list-group-item">LEA Info</a>
+                        <a href="services.html" class="list-group-item">ScheduleA</a>
+                        <a href="contact.html" class="list-group-item">Site Details</a>
+                        <a href="contact.html" class="list-group-item">Manual Documents</a>
+                        <a href="" class="list-group-item"> Reminders </a>
+                        <a href="contact.html" class="list-group-item"> Resources </a>
+                    </div>
+                </div>
+                <!-- Content Column -->
+                <div class="col-md-9">
+                    <h2>Letter To Parent</h2>
+                    <p>Please fill in all the information on the form and then submit it to proceed to next
+                        options. </p>
+                </div>
+            </div>
+
+            <!-- /.row -->
+            <hr>
+
         </div>
-    </footer>
-</div>
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; Mahidhar Mullapudi 2016</p>
+                </div>
+            </div>
+        </footer>
+    </div> <!-- Content Wrapper div -->
+
+</div> <!-- Wrapper div -->
 <!-- /.container -->
 <script src="../bower_components/jquery/dist/jquery.min.js"></script>
 <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 
+<script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("toggled");
+    });
+</script>
 
 </body>
 
