@@ -120,8 +120,10 @@ footer {
         position: fixed;
         top: 51px;
         left: 150px;
-        width: 0;
+        width: 150px;
         height: 100%;
+        /* Overriding the max-height property of sideNav*/
+        max-height:none;
         margin-left: -150px;
         overflow-y: auto;
         background-color: #114041;
@@ -140,7 +142,7 @@ footer {
     .side-nav li a:hover,
     .side-nav li a:focus {
         outline: none;
-        background-color: #fff !important;
+        background-color: #000000 !important;
     }
 
     #wrapper {
@@ -149,10 +151,6 @@ footer {
 
     #sidebar-wrapper.toggled {
         padding-left: 0;
-    }
-
-    #sidebar-wrapper {
-        width: 150px;
     }
 
     #sidebar-wrapper.toggled {
