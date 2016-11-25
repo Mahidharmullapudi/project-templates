@@ -18,6 +18,7 @@
     <link href="css/contractFormStyles.css" rel="stylesheet">
     <!-- Custom Fonts -->
     <link href="../bower_components/components-font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="../bower_components/bootstrap-fileinput/css/fileinput.min.css" rel="stylesheet" type="text/css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -194,7 +195,7 @@
         </nav>
         <!-- Page Content -->
         <div class="container-fluid">
-            <!-- Page Heading/Breadcrumbs -->
+            <!-- Page Heading/Breadcrumbs
             <div class="row">
                 <div class="col-lg-12">
                     <h1 class="page-header">ECAS Home
@@ -206,125 +207,279 @@
                         </li>
                     </ol>
                 </div>
-            </div>
+            </div> -->
             <!-- /.row -->
             <!-- Content Row -->
             <div class="row">
-                <!-- Left margin -->
+                <!-- Left margin
                 <div class="col-md-1">
-                </div>
+                </div> -->
                 <!-- Content Column -->
-                <div class="col-md-10">
-                    <div class="col-md-10">
+                <div class="col-md-11">
+                    <div class="col-md-11">
                         <h2>Commercial Vendor Contract </h2>
                     </div>
 
                     <div class="row">
                         <div class="container-fluid">
-                            <div class="col-md-10">
-                                <fieldset class="scheduler-border">
-                                    <legend class="scheduler-border">Contract Details</legend>
-                                    <div class="control-group">
-                                        <label class="control-label input-label" for="startTime">Contract Name :</label>
-                                        <div class="controls bootstrap-timepicker">
-                                            <input type="text" class="datetime" type="text" id="contractName"
-                                                   name="startTime"
-                                                   placeholder="Start Time"/>
-                                            <i class="icon-time"></i>
+
+                            <div class="col-md-11">
+                                <form class="well form-horizontal" id="contractForm233">
+                                    <fieldset>
+                                        <legend>1. Form #233</legend>
+
+                                        <div class="row col-md-8">
+                                            <label class="control-label">
+                                                <h3>Select File
+                                                    <small>Upload the filled Form #233</small>
+                                                </h3>
+                                            </label>
+                                            <input id="input-1" type="file" multiple class="file">
                                         </div>
-                                    </div>
-                                    <div class="control-group">
-                                        <label class="control-label input-label" for="startTime">Start Date:</label>
-                                        <div class="controls bootstrap-timepicker">
-                                            <input type="text" class="datetime" type="text" id="startTime"
-                                                   name="startTime"
-                                                   placeholder="Start Time"/>
-                                            <i class="icon-time"></i>
-                                        </div>
-                                    </div>
-                                    <div class="control-group">
-                                        <label class="control-label input-label" for="startTime">End Date :</label>
-                                        <div class="controls bootstrap-timepicker">
-                                            <input type="text" class="datetime" type="text" id="endTime"
-                                                   name="startTime"
-                                                   placeholder="Start Time"/>
-                                            <i class="icon-time"></i>
-                                        </div>
-                                    </div>
-                                </fieldset>
+                                    </fieldset>
+                                </form>
                             </div>
 
-                            <div class="col-md-10">
-                                <fieldset class="scheduler-border">
-                                    <legend class="scheduler-border">Form #23</legend>
-                                    <div class="control-group">
-                                        <label class="control-label input-label" for="startTime">Contract Name :</label>
-                                        <div class="controls bootstrap-timepicker">
-                                            <input type="text" class="datetime" type="text" id="contractName"
-                                                   name="startTime"
-                                                   placeholder="Start Time"/>
-                                            <i class="icon-time"></i>
+                            <div class="col-md-11">
+                                <form class="well form-horizontal" id="contractFormScheduleAB">
+                                    <fieldset>
+                                        <legend>2. ScheduleA & ScheduleB Uploads</legend>
+                                        <div class="row col-md-8">
+                                            <label class="control-label">
+                                                <h3>Select File
+                                                    <small>Upload the scanned ScheduleA Form</small>
+                                                </h3>
+                                            </label>
+                                            <input id="input-2" type="file" class="file">
                                         </div>
-                                    </div>
-                                    <div class="control-group">
-                                        <label class="control-label input-label" for="startTime">Start Date:</label>
-                                        <div class="controls bootstrap-timepicker">
-                                            <input type="text" class="datetime" type="text" id="startTime"
-                                                   name="startTime"
-                                                   placeholder="Start Time"/>
-                                            <i class="icon-time"></i>
+                                        <hr>
+                                        <div class="row col-md-8">
+                                            <label class="control-label">
+                                                <h3>Select File
+                                                    <small>Upload the scanned ScheduleA Form</small>
+                                                </h3>
+                                            </label>
+                                            <input id="input-3" type="file" class="file">
                                         </div>
-                                    </div>
-                                    <div class="control-group">
-                                        <label class="control-label input-label" for="startTime">End Date :</label>
-                                        <div class="controls bootstrap-timepicker">
-                                            <input type="text" class="datetime" type="text" id="endTime"
-                                                   name="startTime"
-                                                   placeholder="Start Time"/>
-                                            <i class="icon-time"></i>
-                                        </div>
-                                    </div>
-                                </fieldset>
+                                    </fieldset>
+                                </form>
                             </div>
 
-                            <div class="col-md-10">
-                                <fieldset class="scheduler-border">
-                                    <legend class="scheduler-border">Form #263</legend>
-                                    <div class="control-group">
-                                        <label class="control-label input-label" for="startTime">Contract Name :</label>
-                                        <div class="controls bootstrap-timepicker">
-                                            <input type="text" class="datetime" type="text" id="contractName"
-                                                   name="startTime"
-                                                   placeholder="Start Time"/>
-                                            <i class="icon-time"></i>
+                            <!--  <fieldset class="scheduler-border">
+                            <legend class="scheduler-border">3. Formal Process</legend> -->
+                            <div class="col-md-11">
+                                <form class="well form-horizontal" id="contractFormFormal">
+
+                                    <fieldset class="scheduler-border">
+                                        <legend class="scheduler-border">3. Formal Process</legend>
+
+                                        <div class="row col-md-8">
+                                            <label class="control-label">
+                                                <h3>Select File
+                                                    <small>Upload the scanned Affidavit of Publication or copy of
+                                                        published
+                                                        notice
+                                                    </small>
+                                                </h3>
+                                            </label>
+                                            <input id="input-5" type="file" class="file">
                                         </div>
-                                    </div>
-                                    <div class="control-group">
-                                        <label class="control-label input-label" for="startTime">Start Date:</label>
-                                        <div class="controls bootstrap-timepicker">
-                                            <input type="text" class="datetime" type="text" id="startTime"
-                                                   name="startTime"
-                                                   placeholder="Start Time"/>
-                                            <i class="icon-time"></i>
+                                        <div class="col-md-4"></div>
+
+                                        <div class="control-group">
+                                            <label class="control-label input-label" for="startTime">Contract
+                                                Name: </label>
+                                            <div class="controls bootstrap-timepicker">
+                                                <input type="text" class="datetime" type="text" id="contractName"
+                                                       name="startTime"
+                                                       placeholder="Start Time"/>
+                                                <i class="icon-time"></i>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="control-group">
-                                        <label class="control-label input-label" for="startTime">End Date :</label>
-                                        <div class="controls bootstrap-timepicker">
-                                            <input type="text" class="datetime" type="text" id="endTime"
-                                                   name="startTime"
-                                                   placeholder="Start Time"/>
-                                            <i class="icon-time"></i>
+                                        <div class="control-group">
+                                            <label class="control-label input-label" for="startTime">Start Date:</label>
+                                            <div class="controls bootstrap-timepicker">
+                                                <input type="text" class="datetime" type="text" id="startTime"
+                                                       name="startTime"
+                                                       placeholder="Start Time"/>
+                                                <i class="icon-time"></i>
+                                            </div>
                                         </div>
-                                    </div>
-                                </fieldset>
+                                        <div class="control-group">
+                                            <label class="control-label input-label" for="startTime">End Date :</label>
+                                            <div class="controls bootstrap-timepicker">
+                                                <input type="text" class="datetime" type="text" id="endTime"
+                                                       name="startTime"
+                                                       placeholder="Start Time"/>
+                                                <i class="icon-time"></i>
+                                            </div>
+                                        </div>
+                                    </fieldset>
+                                </form>
                             </div>
 
-                            <div class="col-md-10">
+                            <div class="col-md-11">
+                                <h3> (OR)</h3>
+                            </div>
+
+                            <div class="col-md-11">
+                                <form class="well form-horizontal" id="contractFormInFormal">
+
+                                    <fieldset class="scheduler-border">
+                                        <legend class="scheduler-border">3. Informal Process</legend>
+                                        <div class="row">
+                                            <div class="col-md-1">
+                                            </div>
+                                            <div class="col-md-11">
+                                                <fieldset class="scheduler-border">
+                                                    <legend class="scheduler-border"> OPTION 1
+                                                        <small>Select this option if RFP/Solicitation was
+                                                            publicized in the newspaper
+                                                        </small>
+                                                    </legend>
+                                                    <div class="row col-md-8">
+                                                        <label class="control-label">
+                                                            <h3>Select File
+                                                                <small>Upload the scanned Affidavit of Publication or
+                                                                    copy
+                                                                    of published notice
+                                                                </small>
+                                                            </h3>
+                                                        </label>
+                                                        <input id="input-6" type="file" class="file">
+                                                    </div>
+                                                </fieldset>
+                                            </div>
+
+                                            <div class="col-md-1">
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-md-1">
+                                            </div>
+
+                                            <div class="col-md-11">
+                                                <fieldset class="scheduler-border">
+                                                    <legend class="scheduler-border"> OPTION 2
+                                                        <small>Select this option if RFP/Solicitation was
+                                                            made by <u>email, Fax or letter </u></small>
+                                                    </legend>
+                                                    <div class="row col-md-8">
+                                                        <label class="control-label">
+                                                            <h3>Select File
+                                                                <small>Upload the scanned Affidavit of Publication or
+                                                                    copy
+                                                                    of published notice
+                                                                </small>
+                                                            </h3>
+                                                        </label>
+                                                        <input id="input-7" type="file" class="file">
+                                                    </div>
+                                                </fieldset>
+                                            </div>
+                                            <div class="col-md-1">
+                                            </div>
+                                        </div>
+                                    </fieldset>
+                                </form>
+                            </div>
+
+                            <div class="col-md-11">
+                                <form class="well form-horizontal" id="contractForm240">
+                                    <fieldset class="scheduler-border">
+                                        <legend class="scheduler-border">4. Form #240</legend>
+                                        <div class="row col-md-8">
+                                            <label class="control-label">
+                                                <h3>Select File
+                                                    <small>Upload the scanned Affidavit of Publication or copy of
+                                                        published
+                                                        notice
+                                                    </small>
+                                                </h3>
+                                            </label>
+                                            <input id="input-4" type="file" class="file">
+                                        </div>
+                                    </fieldset>
+                                </form>
+                            </div>
+
+                            <div class="col-md-11">
+                                <form class="well form-horizontal" action=" " method="post" id="contractFormCertification">
+                                    <fieldset>
+                                        <!-- Form Name -->
+                                        <legend> Certification Information</legend>
+                                        <!-- Text input-->
+                                        <div class="form-group">
+                                            <label class="col-md-4 control-label">School District Name </label>
+                                            <div class="col-md-4 inputGroupContainer">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon"><i
+                                                            class="glyphicon glyphicon-user"></i></span>
+                                                    <input name="first_name" placeholder="First Name"
+                                                           class="form-control" type="text">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Text input-->
+                                        <div class="form-group">
+                                            <label class="col-md-4 control-label">Commercial Vendor Name </label>
+                                            <div class="col-md-4 inputGroupContainer">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon"><i
+                                                            class="glyphicon glyphicon-user"></i></span>
+                                                    <input name="first_name" placeholder="First Name"
+                                                           class="form-control" type="text">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Text input-->
+                                        <div class="form-group">
+                                            <label class="col-md-4 control-label">E-Mail</label>
+                                            <div class="col-md-4 inputGroupContainer">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon"><i
+                                                            class="glyphicon glyphicon-envelope"></i></span>
+                                                    <input name="email" placeholder="E-Mail Address"
+                                                           class="form-control" type="text">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Text input-->
+                                        <div class="form-group">
+                                            <label class="col-md-4 control-label">Phone #</label>
+                                            <div class="col-md-4 inputGroupContainer">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon"><i
+                                                            class="glyphicon glyphicon-earphone"></i></span>
+                                                    <input name="phone" placeholder="(845)555-1212" class="form-control"
+                                                           type="text">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Button -->
+                                        <div class="form-group">
+                                            <label class="col-md-4 control-label"></label>
+                                            <div class="col-md-2">
+                                                <button type="submit" class="btn btn-warning">Submit <span
+                                                        class="glyphicon glyphicon-send"></span></button>
+                                            </div>
+                                            <div class="col-md-2">
+                                                <button type="submit" class="btn btn-warning">Update <span
+                                                        class="glyphicon glyphicon-send"></span></button>
+                                            </div>
+                                        </div>
+
+                                    </fieldset>
+                                </form>
+                            </div>
+
+
+                            <div class="col-md-11">
                                 <form class="well form-horizontal" action=" " method="post" id="contact_form">
                                     <fieldset>
                                         <!-- Form Name -->
-                                        <legend> Review Information </legend>
+                                        <legend> Review Information</legend>
                                         <!-- Text input-->
                                         <div class="form-group">
                                             <label class="col-md-4 control-label">First Name</label>
@@ -362,10 +517,7 @@
                                                 </div>
                                             </div>
                                         </div>
-
-
                                         <!-- Text input-->
-
                                         <div class="form-group">
                                             <label class="col-md-4 control-label">Phone #</label>
                                             <div class="col-md-4 inputGroupContainer">
@@ -377,9 +529,7 @@
                                                 </div>
                                             </div>
                                         </div>
-
                                         <!-- Text input-->
-
                                         <div class="form-group">
                                             <label class="col-md-4 control-label">Address</label>
                                             <div class="col-md-4 inputGroupContainer">
@@ -391,9 +541,7 @@
                                                 </div>
                                             </div>
                                         </div>
-
                                         <!-- Text input-->
-
                                         <div class="form-group">
                                             <label class="col-md-4 control-label">City</label>
                                             <div class="col-md-4 inputGroupContainer">
@@ -405,9 +553,7 @@
                                                 </div>
                                             </div>
                                         </div>
-
                                         <!-- Select Basic -->
-
                                         <div class="form-group">
                                             <label class="col-md-4 control-label">State</label>
                                             <div class="col-md-4 selectContainer">
@@ -471,9 +617,7 @@
                                                 </div>
                                             </div>
                                         </div>
-
                                         <!-- Text input-->
-
                                         <div class="form-group">
                                             <label class="col-md-4 control-label">Zip Code</label>
                                             <div class="col-md-4 inputGroupContainer">
@@ -485,7 +629,6 @@
                                                 </div>
                                             </div>
                                         </div>
-
                                         <!-- Text input-->
                                         <div class="form-group">
                                             <label class="col-md-4 control-label">Website or domain name</label>
@@ -498,7 +641,6 @@
                                                 </div>
                                             </div>
                                         </div>
-
                                         <!-- radio checks -->
                                         <div class="form-group">
                                             <label class="col-md-4 control-label">Do you have hosting?</label>
@@ -571,6 +713,7 @@
 <!-- /.container -->
 <script src="../bower_components/jquery/dist/jquery.min.js"></script>
 <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="../bower_components/bootstrap-fileinput/js/fileinput.min.js"></script>
 
 </body>
 </html>

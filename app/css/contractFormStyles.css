@@ -16,3 +16,26 @@ legend.scheduler-border {
 }
 
 #success_message{ display: none;}
+
+#contractForm233{
+    background-color: antiquewhite;
+}
+#contractFormScheduleAB{
+    background-color: aliceblue;
+}
+
+#contractFormFormal{
+    background-color: bisque;
+}
+
+#contractFormInFormal{
+    background-color: khaki;
+}
+
+#contractForm240{
+    background-color: aliceblue;
+}
+
+#contractFormCertification {
+    background-color: bisque;
+}
