@@ -10,12 +10,15 @@
     <title>Form #233</title>
     <!-- Bootstrap CSS -->
     <link href="../bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Custom CSS -->
-    <link href="css/styles.css" rel="stylesheet">
-    <link href="css/contractFormStyles.css" rel="stylesheet">
+
     <!-- Custom Fonts -->
     <link href="../bower_components/components-font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="../bower_components/bootstrap-fileinput/css/fileinput.min.css" rel="stylesheet" type="text/css">
+    <link href="css/awesome-bootstrap-checkbox.css" rel="stylesheet" type="text/css">
+    <!-- Custom CSS -->
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/contractFormStyles.css" rel="stylesheet">
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -191,14 +194,11 @@
         </nav>
         <!-- Page Content -->
         <div class="container-fluid">
-            <!-- /.row -->
             <!-- Content Row -->
             <div class="row">
-                <!-- Left margin
-                <div class="col-md-1">
-                </div> -->
                 <!-- Content Column -->
                 <div class="col-md-11">
+
                     <div class="col-md-11">
                         <h2>Commercial Vendor Contract
                             <small>Contract Details - Form #233</small>
@@ -446,14 +446,23 @@
 
                                         <h4> Under this contract, Vendor will provide (SFA - MUST check all that apply)</h4>
 
-                                        <div class="checkbox">
-                                            <label><input type="checkbox" value="">Option 1</label>
+                                        <div class="checkbox checkbox-success">
+                                            <input type="checkbox" value="">
+                                            <label>
+                                                Lunches meeting national School Lunch Program Requirements set forth in 7 CFR Section 210.10
+                                            </label>
                                         </div>
-                                        <div class="checkbox">
-                                            <label><input type="checkbox" value="">Option 2</label>
+                                        <div class="checkbox checkbox-success">
+                                            <input type="checkbox" value="">
+                                            <label>
+                                                Breakfasts meeting national School Breakfast Program Requirements set forth in 7 CFR Section 220.8
+                                            </label>
                                         </div>
-                                        <div class="checkbox disabled">
-                                            <label><input type="checkbox" value="" disabled>Option 3</label>
+                                        <div class="checkbox checkbox-success">
+                                            <input type="checkbox" value="" >
+                                            <label>After school snacks meeting After School Care Snacks Requirements set
+                                                forth in 7 CFR Section 210.10.
+                                            </label>
                                         </div>
 
                                     </fieldset>
@@ -465,10 +474,11 @@
                                     <fieldset>
                                         <legend>3. Milk</legend>
 
-                                        <h4> Under this contract, Vendor will provide (SFA - MUST check all that apply)</h4>
+                                        <h4>(SFA - MUST check one of the below)</h4>
 
                                         <div class="checkbox">
-                                            <label><input type="checkbox" value="">Option 1</label>
+                                            <input type="checkbox" value="">
+                                            <label>All vended meals supplied by Vendor will include milk.</label>
                                         </div>
                                         <div class="checkbox">
                                             <label><input type="checkbox" value="">Option 2</label>
@@ -503,9 +513,9 @@
                             </div>
 
                             <div class="col-md-11">
-                                <form class="well form-horizontal" id="contractForm233Menus">
+                                <form class="well form-horizontal" id="contractForm233Orders">
                                     <fieldset>
-                                        <legend>4. Orders</legend>
+                                        <legend>5. Orders</legend>
 
                                         <h4> Under this contract, Vendor will provide (SFA - MUST check all that apply)</h4>
 
@@ -526,7 +536,7 @@
                             <div class="col-md-11">
                                 <form class="well form-horizontal" id="contractFormScheduleAB">
                                     <fieldset>
-                                        <legend>3. ScheduleA & ScheduleB Uploads</legend>
+                                        <legend>6. ScheduleA & ScheduleB Uploads</legend>
                                         <div class="row col-md-8">
                                             <label class="control-label">
                                                 <h3>Select File
@@ -550,16 +560,24 @@
 
                             <div class="col-md-11">
 
-                                <div class="form-group col-md-4">
+                                <div class="form-group col-md-2">
                                     <button type="button" class="btn btn-success btn-lg center-block">Submit</button>
                                 </div>
 
-                                <div class="form-group col-md-4">
-                                    <button type="button" class="btn btn-primary btn-lg center-block">Update</button>
+                                <div class="form-group col-md-2">
+                                    <button type="button" class="btn btn-info btn-lg center-block">Update</button>
                                 </div>
 
-                                <div class="form-group col-md-4">
+                                <div class="form-group col-md-2">
                                     <button type="button" class="btn btn-warning btn-lg center-block">Cancel</button>
+                                </div>
+
+                                <div class="form-group col-md-6 center-block">
+                                    <button type="button" class="btn btn-lg center-block">
+                                        <a href="chargesAndBillings.html">
+                                            <span>Continue  </span>
+                                        </a>
+                                    </button>
                                 </div>
 
                             </div>
@@ -573,6 +591,7 @@
                 <div class="col-md-1">
                 </div>
             </div>
+
         </div>
         <!-- /.row -->
         <hr>

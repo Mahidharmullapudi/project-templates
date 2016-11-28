@@ -10,12 +10,15 @@
     <title>Form #233</title>
     <!-- Bootstrap CSS -->
     <link href="../bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Custom CSS -->
-    <link href="css/styles.css" rel="stylesheet">
-    <link href="css/contractFormStyles.css" rel="stylesheet">
+
     <!-- Custom Fonts -->
     <link href="../bower_components/components-font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="../bower_components/bootstrap-fileinput/css/fileinput.min.css" rel="stylesheet" type="text/css">
+    <link href="css/awesome-bootstrap-checkbox.css" rel="stylesheet" type="text/css">
+    <!-- Custom CSS -->
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/contractFormStyles.css" rel="stylesheet">
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -191,114 +194,101 @@
         </nav>
         <!-- Page Content -->
         <div class="container-fluid">
-            <!-- /.row -->
             <!-- Content Row -->
             <div class="row">
                 <!-- Content Column -->
                 <div class="col-md-11">
-                    <div class="col-md-11">
-                        <h2>Commercial Vendor Contract Summary
 
+                    <div class="col-md-11">
+                        <h2>Commercial Vendor Contract
+                            <small>Contract Details - Form #233 - Charges and Billing</small>
                         </h2>
-                    </div>
+                    </div><hr>
 
                     <div class="row">
-                        <div class="col-md-11">
-                            <h4>Below are the list of contracts for your SFA. Click here to add a new base year contract
-                                <a class="btn btn-large btn-success" href="comVendorContractForm233.html">Add New Base Year Contract</a></h4>
-                        </div>
+                        <div class="container-fluid">
 
-                        <div class="col-md-11">
-                            <div class="table-responsive">
-                                <table class="table table-bordered">
+                            <div class="col-md-11">
+                                <form class="well form-horizontal" id="contractForm233MealReqs">
+                                    <fieldset>
+                                        <legend>Charges and Billing</legend>
 
-                                    <thead>
-                                    <tr>
-                                        <th>#</th>
-                                        <th>Vendor Name</th>
-                                        <th>Vendor Address</th>
-                                        <th>Contract Start Date</th>
-                                        <th>Contract End Date</th>
-                                        <th>Type of Contract</th>
-                                        <th>Contract Status</th>
-                                        <th>Contract Span</th>
-                                        <th>Options</th>
-                                    </tr>
-                                    </thead>
+                                        <h4> The SFA will pay the following charges for vended meals that meet the School Nutrition Programs requirements and
+                                        that are provided in accordance with the contract.</h4>
 
-                                    <tbody>
-                                    <tr>
-                                        <td>1</td>
-                                        <td>ABC contract company</td>
-                                        <td>22 N Washington Rd, Trenton, NJ 08609</td>
-                                        <td>07/01/2015</td>
-                                        <td>06/30/2016</td>
-                                        <td>Base Year contract</td>
-                                        <td>Approved</td>
-                                        <td>1</td>
-                                        <td><button type="button" class="btn btn-link">Add Addendum</button></td>
-                                    </tr>
+                                        <div class="col-md-11">
+                                            <div class="table-responsive">
+                                                <table class="table">
 
-                                    <tr>
-                                        <td>2</td>
-                                        <td>BCD contract company</td>
-                                        <td>22 N Washington Rd, Trenton, NJ 08609</td>
-                                        <td>07/01/2015</td>
-                                        <td>06/30/2016</td>
-                                        <td>Base Year contract</td>
-                                        <td>Approved</td>
-                                        <td>1</td>
-                                        <td></td>
-                                    </tr>
+                                                    <thead>
+                                                    <tr>
+                                                        <th>Type of Meal</th>
+                                                        <th>Unit Price per Meal/Snack Name</th>
+                                                        <th>Annual Estimated Number of Meals/Snacks
+                                                        <small>(Estimated # of daily meals x # of serving days)</small></th>
+                                                        <th>ANNUAL Estimated Cost</th>
+                                                    </tr>
+                                                    </thead>
 
-                                    <tr>
-                                        <td>2</td>
-                                        <td>BCD contract company</td>
-                                        <td>22 N Washington Rd, Trenton, NJ 08609</td>
-                                        <td>07/01/2016</td>
-                                        <td>06/30/2017</td>
-                                        <td>Addendum</td>
-                                        <td>Approved</td>
-                                        <td>1</td>
-                                        <td><button type="button" class="btn btn-link">Add Addendum</button></td>
-                                    </tr>
+                                                    <tbody>
+                                                    <tr>
+                                                        <td rowspan="2" style="vertical-align: middle">Breakfast</td>
+                                                        <td class="input-group">Price 1 : <input name="first_name" placeholder="Price 1"
+                                                                             class="form-control" type="text"></td></td>
+                                                        <td><input name="first_name" placeholder="No. of Meals"
+                                                                   class="form-control" type="text"></td>
+                                                        <td>$<input name="first_name" placeholder="total"
+                                                                    class="form-control" type="text" readonly></td>
+                                                    </tr>
+                                                    <tr>
 
-                                    <tr>
-                                        <td>3</td>
-                                        <td>XYZ contract company</td>
-                                        <td>22 N Washington Rd, Trenton, NJ 08609</td>
-                                        <td>07/01/2015</td>
-                                        <td>06/30/2016</td>
-                                        <td>Base Year contract</td>
-                                        <td>Approved</td>
-                                        <td>1</td>
-                                        <td></td>
-                                    </tr>
+                                                        <td>Price 1 : <input name="first_name" placeholder="Price 1"
+                                                                             class="form-control" type="text"></td></td>
+                                                        <td><input name="first_name" placeholder="No. of Meals"
+                                                                   class="form-control" type="text"></td>
+                                                        <td>$<input name="first_name" placeholder="total"
+                                                                    class="form-control" type="text" readonly></td>
+                                                    </tr>
+                                                    </tbody>
 
-                                    <tr>
-                                        <td>3</td>
-                                        <td>XYZ contract company</td>
-                                        <td>22 N Washington Rd, Trenton, NJ 08609</td>
-                                        <td>07/01/2016</td>
-                                        <td>06/30/2017</td>
-                                        <td>Addendum</td>
-                                        <td>Submitted</td>
-                                        <td>1</td>
-                                        <td></td>
-                                    </tr>
+                                                </table>
+                                            </div>
+                                        </div>
 
-                                    </tbody>
-                                </table>
+                                    </fieldset>
+                                </form>
                             </div>
-                        </div>
 
+                            <div class="col-md-11">
+
+                                <div class="form-group col-md-2">
+                                    <button type="button" class="btn btn-success btn-lg center-block">Submit</button>
+                                </div>
+
+                                <div class="form-group col-md-2">
+                                    <button type="button" class="btn btn-info btn-lg center-block">Update</button>
+                                </div>
+
+                                <div class="form-group col-md-2">
+                                    <button type="button" class="btn btn-warning btn-lg center-block">Cancel</button>
+                                </div>
+
+                                <div class="form-group col-md-6 center-block">
+                                    <a class="btn btn-large btn-primary" href="commercialVendorContract.html">Continue</a>
+                                </div>
+
+                            </div>
+
+                        </div><!-- /.container -->
                     </div>
-                </div>
 
+
+                </div>
                 <!-- Right margin -->
                 <div class="col-md-1">
                 </div>
             </div>
+
         </div>
         <!-- /.row -->
         <hr>
