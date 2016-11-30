@@ -6,17 +6,18 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
 
-    <title>ECAS-Home</title>
-
+    <title>Form #233</title>
     <!-- Bootstrap CSS -->
     <link href="../bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Custom CSS -->
-    <link href="css/styles.css" rel="stylesheet">
+
     <!-- Custom Fonts -->
     <link href="../bower_components/components-font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="../bower_components/bootstrap-fileinput/css/fileinput.min.css" rel="stylesheet" type="text/css">
+    <link href="css/awesome-bootstrap-checkbox.css" rel="stylesheet" type="text/css">
+    <!-- Custom CSS -->
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/contractFormStyles.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -190,164 +191,172 @@
         </nav>
         <!-- Page Content -->
         <div class="container-fluid">
-            <!-- Page Heading/Breadcrumbs -->
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1 class="page-header">ECAS Home
-                        <small></small>
-                    </h1>
-                    <ol class="breadcrumb">
-                        <li>
-                            <a href="index.html">Home</a>
-                        </li>
-                    </ol>
-                </div>
-            </div>
-            <!-- /.row -->
             <!-- Content Row -->
             <div class="row">
-                <!-- Sidebar Column -->
-                <div class="col-md-2">
-                    <div class="list-group">
-                        <a href="index.html" class="list-group-item">Home</a>
-                        <a href="about.html" class="list-group-item">Contract Management</a>
-                        <a href="services.html" class="list-group-item">Resources</a>
-                        <a href="contact.html" class="list-group-item">Reports</a>
-                    </div>
-                </div>
                 <!-- Content Column -->
-                <div class="col-md-10">
-                    <div class="col-md-10">
-                        <h2>Contracts Home </h2>
-                    </div>
+                <div class="col-md-11">
 
                     <div class="row">
-                        <div class="col-md-5">
-                            <div class="panel panel-default">
-                                <div class="panel-heading">
-                                    <a href="fsmcHome.html"><h4><i class="fa fa-fw fa-check"></i> FSMC Contracts</h4>
-                                    </a>
-                                </div>
-                                <div class="panel-body">
-                                    <p>Click on this link to proceed to the process of performing the FSMC Contracts.
-                                        All
-                                        the information and process related to the FSMC contracts can be accessed
-                                        here. </p>
+                        <div class="container-fluid">
 
-                                    <a href="#" class="btn btn-default">Base Year Contract</a>
-                                    <a href="#" class="btn btn-default">Contract Renewal</a>
-                                </div>
-                                <div class="panel-footer">
-                                    <a href="#" class="btn btn-default" data-toggle="modal"
-                                       data-target="#fsmcModal">Learn More</a>
+                            <div class="col-md-11">
+                                <form class="well form-horizontal" id="contractForm233MealReqs">
+                                    <fieldset>
+                                        <legend>Contract Checklist</legend>
+                                        <h4> This page provides you the list of necessary documents for the contract process and also the
+                                            information needed for bidding and selecting the right procurement process. </h4>
 
-                                    <div id="fsmcModal" class="modal fade" role="dialog">
-                                        <div class="modal-dialog">
-                                            <!-- Modal content-->
-                                            <div class="modal-content">
-                                                <div class="modal-header">
-                                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                                    <h4 class="modal-title">Modal Header</h4>
-                                                </div>
-                                                <div class="modal-body">
-                                                    <p>ECAS system provides the users with the ability to submit the contract
-                                                        information
-                                                        for review and approval from the staff.
-                                                        Users have to fill in the required information and also upload the forms related
-                                                        to the contract.
-                                                        System also perform some validations on the user information.
-                                                    </p>
-                                                </div>
-                                                <div class="modal-footer">
-                                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                        <div class="row col-md-8">
+
+                                            <div class="row col-md-4">
+                                                What type of contract do you want to select:
+                                            </div>
+
+                                            <div class="col-md-4">
+                                                <div class="dropdown">
+                                                    <button class="btn btn-success dropdown-toggle" type="button"
+                                                            data-toggle="dropdown">Contracts
+                                                        <span class="caret"></span></button>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a href="#">FSMC Contract</a></li>
+                                                        <li><a href="#">Commercial Vendor Contract</a></li>
+                                                        <li><a href="#">SFA to SFA Contract</a></li>
+                                                        <li><a href="#">Consolidated Contract</a></li>
+                                                        <li class="divider"></li>
+                                                        <li><a href="#">About Contracts</a></li>
+                                                    </ul>
                                                 </div>
                                             </div>
+
                                         </div>
-                                    </div>
 
-                                </div>
-                            </div>
-                        </div>
+                                        <div class="col-md-4">
 
-                        <div class="col-md-5">
-                            <div class="panel panel-default">
-                                <div class="panel-heading">
-                                    <a href="commercialVendorContractSummary.html"><h4><i class="fa fa-fw fa-check"></i>Commercial Vendor Contracts
-                                    </h4></a>
-                                </div>
-                                <div class="panel-body">
-                                    <p>Click on this link to proceed to establish commercial vendor contracts. You can
-                                        fill in all the
-                                        required information, upload forms and submit for approval.</p>
-                                </div>
-                                <div class="panel-footer">
-                                    <a href="#" class="btn btn-default">Learn More</a>
-                                </div>
+                                        </div> <br>
+
+                                        <div class="row">
+                                            <div class="col-md-1">
+
+                                            </div>
+
+                                            <div class="col-md-11">
+                                                <fieldset class="scheduler-border">
+                                                    <legend class="scheduler-border">
+                                                        Commercial Vendor Contract
+                                                    </legend>
+
+                                                    <div class="row col-md-8">
+                                                        <p>1. <u><a href="#">Guidance on Commercial Vendor Contract</a></u> <small> Click here to access the documentation on commercial vendor contract</small> </p>
+                                                        <p>2. <u><a href="#">Sample Commercial vendor contract document with mandatory language from state.</a></u></p>
+                                                        <p>3. Estimated Annual contract cost: </p>
+                                                        <div>
+                                                            <input type="text" name="radio2" id="text1"  placeholder="Annual contract cost">
+                                                        </div>
+                                                        <p>4. Options for procuring the contract services </p>
+
+                                                        <div class="radio radio-inline">
+                                                            <input type="radio" name="bn" id="radio3"
+                                                                   value="1">
+                                                            <label for="radio3">
+                                                                <b>Formal Process</b>
+                                                            </label>
+                                                        </div>
+
+                                                        <div class="radio radio-inline">
+                                                            <input type="radio" name="bn" id="radio4"
+                                                                   value="0">
+                                                            <label for="radio3">
+                                                                <b>Informal Process</b>
+                                                            </label>
+                                                        </div>
+
+                                                        <div id="myModal" class="modal fade" role="dialog">
+                                                            <div class="modal-dialog">
+                                                                <!-- Modal content-->
+                                                                <div class="modal-content">
+                                                                    <div class="modal-header">
+                                                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                                        <h4 class="modal-title">Modal Header</h4>
+                                                                    </div>
+                                                                    <div class="modal-body">
+                                                                        <p>Since your annual contract is above 40,000, you must select
+                                                                            the formal process. Please stop and refer to the guidance.
+                                                                        </p>
+                                                                    </div>
+                                                                    <div class="modal-footer">
+                                                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <p>5. Recommended bidding process: <mark> Formal </mark></p>
+
+                                                    </div>
+
+                                                </fieldset>
+                                            </div>
+                                        </div>
+                                    </fieldset>
+                                </form>
                             </div>
-                        </div>
+
+                            <div class="col-md-11">
+
+                                <div class="form-group col-md-2">
+                                    <button type="button" class="btn btn-success btn-lg center-block">Submit</button>
+                                </div>
+
+                                <div class="form-group col-md-2">
+                                    <button type="button" class="btn btn-info btn-lg center-block">Update</button>
+                                </div>
+
+                                <div class="form-group col-md-2">
+                                    <button type="button" class="btn btn-warning btn-lg center-block">Cancel</button>
+                                </div>
+
+                                <div class="form-group col-md-6 center-block">
+                                    <a class="btn btn-large btn-primary"
+                                       href="commercialVendorContract.html">Continue</a>
+                                </div>
+
+                            </div>
+
+                        </div><!-- /.container -->
                     </div>
-                    <div class="row">
-                        <div class="col-md-5">
-                            <div class="panel panel-default">
-                                <div class="panel-heading">
-                                    <a href="snearsHome.html">
-                                        <h4><i class="fa fa-fw fa-check"></i> SFA-SFA Vended Meals Contract </h4>
-                                    </a>
-                                </div>
-                                <div class="panel-body">
-                                    <p>Click on this link to establish contracts with other food authorities. You can
-                                        fill in all the
-                                        required information, upload forms and submit for approval. </p>
 
-                                </div>
-                                <div class="panel-footer">
-                                    <a href="#" class="btn btn-default">Learn More</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-md-5">
-                            <div class="panel panel-default">
-                                <div class="panel-heading">
-                                    <a href="snearsHome.html"><h4><i class="fa fa-fw fa-check"></i>Consolidation Agreements</h4>
-                                    </a>
-                                </div>
-
-                                <div class="panel-body">
-                                    <p>Click on this link to establish contracts with other food authorities. You can
-                                        fill in all the
-                                        required information, upload forms and submit for approval.
-                                    </p>
-                                </div>
-
-                                <div class="panel-footer">
-                                    <a href="#" class="btn btn-default">Learn More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
 
                 </div>
+                <!-- Right margin -->
+                <div class="col-md-1">
+                </div>
             </div>
-            <!-- /.row -->
-            <hr>
 
         </div>
+        <!-- /.row -->
+        <hr>
         <!-- Footer -->
         <footer>
             <div class="row">
                 <div class="col-lg-12">
-                    <p>Copyright &copy; Mahidhar Mullapudi 2016</p>
+                    <p>Copyright &copy; NJDA 2016</p>
                 </div>
             </div>
         </footer>
     </div> <!-- Content Wrapper div -->
-
 </div> <!-- Wrapper div -->
 <!-- /.container -->
 <script src="../bower_components/jquery/dist/jquery.min.js"></script>
 <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="../bower_components/bootstrap-fileinput/js/fileinput.min.js"></script>
+
+<script type="text/javascript">
+    $('input[name="bn"]').change(function() {
+        if($(this).is(':checked') && $(this).val() == '0') {
+            $('#myModal').modal('show');
+        }
+    });
+</script>
 
 </body>
-
 </html>
