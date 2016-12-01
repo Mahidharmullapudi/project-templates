@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Form #233</title>
+    <!-- Bootstrap CSS -->
+    <link href="../bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="../bower_components/components-font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="../bower_components/bootstrap-fileinput/css/fileinput.min.css" rel="stylesheet" type="text/css">
+    <link href="css/awesome-bootstrap-checkbox.css" rel="stylesheet" type="text/css">
+    <!-- Custom CSS -->
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/contractFormStyles.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+<div id="wrapper">
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Toggle Menu</a> -->
+                <a class="navbar-brand" href="index.html"> Agriculture stamp </a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Notices <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="blog-home-1.html">NJDA Notices</a>
+                            </li>
+                            <li>
+                                <a href="blog-home-2.html">Services Notices</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Account <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="full-width.html">View Profile</a>
+                            </li>
+                            <li>
+                                <a href="sidebar.html">Settings</a>
+                            </li>
+                            <li>
+                                <a href="faq.html">FAQ</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+        <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse" id="sidebar-wrapper">
+            <ul class="nav navbar-nav side-nav">
+                <li class="active">
+                    <a href="snearsHome.html"><i class="fa fa-fw fa-dashboard"></i> SNEARS </a>
+                </li>
+                <li>
+                    <a href="charts.html"><i class="fa fa-fw fa-bar-chart-o"></i> Direct Certification</a>
+                </li>
+                <li>
+                    <a href="tables.html"><i class="fa fa-fw fa-table"></i> Reimbursement </a>
+                </li>
+                <li>
+                    <a href="forms.html"><i class="fa fa-fw fa-edit"></i> FFVP </a>
+                </li>
+                <li>
+                    <a href="bootstrap-elements.html"><i class="fa fa-fw fa-desktop"></i> CEP </a>
+                </li>
+                <li>
+                    <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i
+                            class="fa fa-fw fa-arrows-v"></i> Configuration <i class="fa fa-fw fa-caret-down"></i></a>
+                    <ul id="demo" class="collapse">
+                        <li>
+                            <a href="#"> Item1 </a>
+                        </li>
+                        <li>
+                            <a href="#"> Item2 </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="divide-nav">
+        <div class="container">
+            <p class="divide-text"> Electronic Contract Approval System (ECAS) </p>
+        </div>
+    </div>
+
+    <div id="page-wrapper">
+        <!-- Second navbar -->
+        <nav class="navbar navbar-default navbar-lower" role="navigation">
+            <div class="container">
+                <div class="collapse navbar-collapse collapse-buttons">
+                    <ul class="nav navbar-nav navbar-left">
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Contracts Management</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Resources
+                                <b class="caret"></b>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="#">FSMC Contract Doc</a>
+                                </li>
+                                <li>
+                                    <a href="#">Vended Meals Contract</a>
+                                </li>
+                                <li>
+                                    <a href="#">Other District Contract</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Resources <b class="caret"></b></a>
+                        </li>
+                        <li>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                Reports <b class="caret"></b></a>
+                        </li>
+                    </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="contact.html">Help</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Settings</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Account <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="full-width.html">View Profile</a>
+                                </li>
+                                <li>
+                                    <a href="sidebar.html">Update Account Info</a>
+                                </li>
+                                <li>
+                                    <a href="faq.html"> Logout</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Page Content -->
+        <div class="container-fluid">
+            <!-- Content Row -->
+            <div class="row">
+                <!-- Content Column -->
+                <div class="col-md-11">
+
+                    <div class="col-md-11">
+                        <h2>Commercial Vendor Contract
+                            <small>Contract Details - Form #233</small>
+                        </h2>
+                    </div>
+
+                    <div class="row">
+                        <div class="container-fluid">
+
+                            <div class="col-md-11">
+                                <form class="well form-horizontal" id="contractForm233">
+                                    <fieldset>
+                                        <legend>1. Contract Information</legend>
+
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <h4 class="center-block">Commercial Vendor Info</h4>
+
+                                                <div class="form-group col-md-6">
+                                                    <label class="col-md-4 control-label">Name of Commercial Vendor </label>
+                                                    <div class="col-md-8 inputGroupContainer">
+                                                        <div class="input-group">
+                                                    <span class="input-group-addon"><i
+                                                            class="glyphicon glyphicon-user"></i></span>
+                                                            <input name="first_name" placeholder="Commercial Vendor Name"
+                                                                   class="form-control" type="text">
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="form-group col-md-6">
+                                                    <label class="col-md-4 control-label">Contact Person</label>
+                                                    <div class="col-md-8 inputGroupContainer">
+                                                        <div class="input-group">
+                                                    <span class="input-group-addon"><i
+                                                            class="glyphicon glyphicon-user"></i></span>
+                                                            <input name="first_name" placeholder="Contact Person"
+                                                                   class="form-control" type="text">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- Text input-->
+                                                <div class="form-group col-md-6">
+                                                    <label class="col-md-4 control-label">Contract Start Date</label>
+                                                    <div class="col-md-8 inputGroupContainer">
+                                                        <div class="input-group">
+                                                    <span class="input-group-addon"><i
+                                                            class="glyphicon glyphicon-time"></i></span>
+                                                            <input name="first_name" placeholder="Start Date"
+                                                                   class="form-control" type="text">
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="form-group col-md-6">
+                                                    <label class="col-md-4 control-label">Contract End Date</label>
+                                                    <div class="col-md-8 inputGroupContainer">
+                                                        <div class="input-group">
+                                                    <span class="input-group-addon">
+                                                        <i class="glyphicon glyphicon-time"></i></span>
+                                                            <input name="first_name" placeholder="End Date"
+                                                                   class="form-control" type="text">
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="form-group col-md-6">
+                                                    <label class="col-md-4 control-label">Address</label>
+                                                    <div class="col-md-8 inputGroupContainer">
+                                                        <div class="input-group">
+                                                    <span class="input-group-addon"><i
+                                                            class="glyphicon glyphicon-home"></i></span>
+                                                            <textarea class="form-control" name="comment"
+                                                                      placeholder="Address"></textarea>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <!-- Text input-->
+                                                <div class="form-group col-md-6">
+                                                    <label class="col-md-4 control-label">City</label>
+                                                    <div class="col-md-8 inputGroupContainer">
+                                                        <div class="input-group">
+                                                    <span class="input-group-addon"><i
+                                                            class="glyphicon glyphicon-home"></i></span>
+                                                            <input name="city" placeholder="City" class="form-control"
+                                                                   type="text">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- Select Basic -->
+                                                <div class="form-group col-md-6">
+                                                    <label class="col-md-4 control-label">State</label>
+                                                    <div class="col-md-8 selectContainer">
+                                                        <div class="input-group">
+                                                    <span class="input-group-addon"><i
+                                                            class="glyphicon glyphicon-list"></i></span>
+                                                            <select name="state" class="form-control selectpicker">
+                                                                <option value=" ">Please select your state</option>
+                                                                <option>Alabama</option>
+                                                                <option>Alaska</option>
+                                                                <option>Arizona</option>
+                                                                <option>Arkansas</option>
+                                                                <option>California</option>
+                                                                <option>Colorado</option>
+                                                                <option>Connecticut</option>
+                                                                <option>Delaware</option>
+                                                                <option>District of Columbia</option>
+                                                                <option> Florida</option>
+                                                                <option>Georgia</option>
+                                                                <option>Hawaii</option>
+                                                                <option>daho</option>
+                                                                <option>Illinois</option>
+                                                                <option>Indiana</option>
+                                                                <option>Iowa</option>
+                                                                <option> Kansas</option>
+                                                                <option>Kentucky</option>
+                                                                <option>Louisiana</option>
+                                                                <option>Maine</option>
+                                                                <option>Maryland</option>
+                                                                <option> Mass</option>
+                                                                <option>Michigan</option>
+                                                                <option>Minnesota</option>
+                                                                <option>Mississippi</option>
+                                                                <option>Missouri</option>
+                                                                <option>Montana</option>
+                                                                <option>Nebraska</option>
+                                                                <option>Nevada</option>
+                                                                <option>New Hampshire</option>
+                                                                <option>New Jersey</option>
+                                                                <option>New Mexico</option>
+                                                                <option>New York</option>
+                                                                <option>North Carolina</option>
+                                                                <option>North Dakota</option>
+                                                                <option>Ohio</option>
+                                                                <option>Oklahoma</option>
+                                                                <option>Oregon</option>
+                                                                <option>Pennsylvania</option>
+                                                                <option>Rhode Island</option>
+                                                                <option>South Carolina</option>
+                                                                <option>South Dakota</option>
+                                                                <option>Tennessee</option>
+                                                                <option>Texas</option>
+                                                                <option> Uttah</option>
+                                                                <option>Vermont</option>
+                                                                <option>Virginia</option>
+                                                                <option>Washington</option>
+                                                                <option>West Virginia</option>
+                                                                <option>Wisconsin</option>
+                                                                <option>Wyoming</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- Text input-->
+                                                <div class="form-group col-md-6">
+                                                    <label class="col-md-4 control-label">Zip Code</label>
+                                                    <div class="col-md-8 inputGroupContainer">
+                                                        <div class="input-group">
+                                                    <span class="input-group-addon"><i
+                                                            class="glyphicon glyphicon-home"></i></span>
+                                                            <input name="zip" placeholder="Zip Code" class="form-control"
+                                                                   type="text">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- Text input-->
+                                                <div class="form-group col-md-6">
+                                                    <label class="col-md-4 control-label">E-Mail</label>
+                                                    <div class="col-md-8 inputGroupContainer">
+                                                        <div class="input-group">
+                                                    <span class="input-group-addon"><i
+                                                            class="glyphicon glyphicon-envelope"></i></span>
+                                                            <input name="email" placeholder="E-Mail Address"
+                                                                   class="form-control" type="text">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- Text input-->
+                                                <div class="form-group col-md-6">
+                                                    <label class="col-md-4 control-label">Vendor Phone #</label>
+                                                    <div class="col-md-8 inputGroupContainer">
+                                                        <div class="input-group">
+                                                    <span class="input-group-addon"><i
+                                                            class="glyphicon glyphicon-earphone"></i></span>
+                                                            <input name="phone" placeholder="(845)555-1212"
+                                                                   class="form-control"
+                                                                   type="text">
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <!-- Text input-->
+                                                <div class="form-group col-md-6">
+                                                    <label class="col-md-4 control-label">Vendor Fax #</label>
+                                                    <div class="col-md-8 inputGroupContainer">
+                                                        <div class="input-group">
+                                                    <span class="input-group-addon"><i
+                                                            class="glyphicon glyphicon-earphone"></i></span>
+                                                            <input name="phone" placeholder="(845)555-1212"
+                                                                   class="form-control"
+                                                                   type="text">
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <!-- Text area -->
+                                                <div class="form-group col-md-6">
+                                                    <label class="col-md-4 control-label">Vendor Description</label>
+                                                    <div class="col-md-8 inputGroupContainer">
+                                                        <div class="input-group">
+                                                    <span class="input-group-addon"><i
+                                                            class="glyphicon glyphicon-pencil"></i></span>
+                                                            <textarea class="form-control" name="comment"
+                                                                      placeholder="Project Description"></textarea>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div><hr>
+
+                                        <div class="row">
+                                            <div class="col-md-12">
+
+                                                <div class="col-md-6">
+                                                    <a href="#" class="btn btn-lg btn-success center-block">
+                                                        <span class="glyphicon glyphicon-ok"></span> Approve
+                                                    </a>
+                                                </div>
+
+                                                <!-- Text area -->
+                                                <div class="col-md-6">
+                                                    <a href="#" class="btn btn-lg btn-warning center-block" id="btnModalLaunch">
+                                                        <span class="glyphicon glyphicon-remove"></span> Disapprove
+                                                    </a>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                        <div class="row col-md-10" id="disApproveDiv" style="display: none; background-color: silver; padding-bottom: 5px;">
+                                            <div class="col-md-12">
+                                                <h6> Disapproval Reason: </h6>
+                                                <p id="disapproveReason"></p>
+                                            </div>
+
+                                            <div class="col-md-12">
+                                                <span class="pull-right small"> Submitted by Mahidhar on 12/01/2016 2:23 pm</span>
+                                            </div>
+
+                                        </div>
+                                    </fieldset>
+                                    <div class="modal fade" id="reasonModal" tabindex="-1" role="dialog"
+                                         aria-labelledby="myModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <!-- Modal Header -->
+                                                <div class="modal-header">
+                                                    <button type="button" class="close"
+                                                            data-dismiss="modal">
+                                                        <span aria-hidden="true">&times;</span>
+                                                        <span class="sr-only">Close</span>
+                                                    </button>
+                                                    <h4 class="modal-title" id="myModalLabel">
+                                                        Disapproval Reason
+                                                    </h4>
+                                                </div>
+                                                <!-- Modal Body -->
+                                                <div class="modal-body">
+                                                    <form role="form">
+                                                        <div class="form-group">
+                                                            <label for="disapprovalMsg">What's wrong?</label>
+                                                            <textarea class="form-control"
+                                                                      id="disapprovalMsg" placeholder="Message"></textarea>
+                                                        </div>
+                                                        <button id="btnSave" type="submit" class="btn btn-success">Submit</button>
+                                                    </form>
+                                                </div>
+
+                                                <!-- Modal Footer -->
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-default"
+                                                            data-dismiss="modal">
+                                                        Close
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+
+                            <div class="col-md-11">
+                                <form class="well form-horizontal" id="contractForm233MealReqs">
+                                    <fieldset>
+                                        <legend>2. Meal Requirements</legend>
+
+                                        <h4> Under this contract, Vendor will provide (SFA - MUST check all that apply)</h4>
+
+                                        <div class="checkbox checkbox-success">
+                                            <input type="checkbox" value="">
+                                            <label>
+                                                Lunches meeting national School Lunch Program Requirements set forth in 7 CFR Section 210.10
+                                            </label>
+                                        </div>
+                                        <div class="checkbox checkbox-success">
+                                            <input type="checkbox" value="">
+                                            <label>
+                                                Breakfasts meeting national School Breakfast Program Requirements set forth in 7 CFR Section 220.8
+                                            </label>
+                                        </div>
+                                        <div class="checkbox checkbox-success">
+                                            <input type="checkbox" value="" >
+                                            <label>After school snacks meeting After School Care Snacks Requirements set
+                                                forth in 7 CFR Section 210.10.
+                                            </label>
+                                        </div>
+
+                                    </fieldset>
+                                </form>
+                            </div>
+
+                            <div class="col-md-11">
+                                <form class="well form-horizontal" id="contractForm233Milk">
+                                    <fieldset>
+                                        <legend>3. Milk</legend>
+
+                                        <h4>(SFA - MUST check one of the below)</h4>
+
+                                        <div class="checkbox">
+                                            <input type="checkbox" value="">
+                                            <label>All vended meals supplied by Vendor will include milk.</label>
+                                        </div>
+                                        <div class="checkbox">
+                                            <label><input type="checkbox" value="">Option 2</label>
+                                        </div>
+                                        <div class="checkbox disabled">
+                                            <label><input type="checkbox" value="" disabled>Option 3</label>
+                                        </div>
+
+                                    </fieldset>
+                                </form>
+                            </div>
+
+                            <div class="col-md-11">
+                                <form class="well form-horizontal" id="contractForm233Menus">
+                                    <fieldset>
+                                        <legend>4. Menus</legend>
+
+                                        <h4> Under this contract, Vendor will provide (SFA - MUST check all that apply)</h4>
+
+                                        <div class="checkbox">
+                                            <label><input type="checkbox" value="">Option 1</label>
+                                        </div>
+                                        <div class="checkbox">
+                                            <label><input type="checkbox" value="">Option 2</label>
+                                        </div>
+                                        <div class="checkbox disabled">
+                                            <label><input type="checkbox" value="" disabled>Option 3</label>
+                                        </div>
+
+                                    </fieldset>
+                                </form>
+                            </div>
+
+                            <div class="col-md-11">
+                                <form class="well form-horizontal" id="contractForm233Orders">
+                                    <fieldset>
+                                        <legend>5. Orders</legend>
+
+                                        <h4> Under this contract, Vendor will provide (SFA - MUST check all that apply)</h4>
+
+                                        <div class="checkbox">
+                                            <label><input type="checkbox" value="">Option 1</label>
+                                        </div>
+                                        <div class="checkbox">
+                                            <label><input type="checkbox" value="">Option 2</label>
+                                        </div>
+                                        <div class="checkbox disabled">
+                                            <label><input type="checkbox" value="" disabled>Option 3</label>
+                                        </div>
+
+                                    </fieldset>
+                                </form>
+                            </div>
+
+                            <div class="col-md-11">
+                                <form class="well form-horizontal" id="contractFormScheduleAB">
+                                    <fieldset>
+                                        <legend>6. ScheduleA & ScheduleB Uploads</legend>
+                                        <div class="row col-md-8">
+                                            <label class="control-label">
+                                                <h3>Select File
+                                                    <small>Upload the scanned ScheduleA Form</small>
+                                                </h3>
+                                            </label>
+                                            <input id="input-2" type="file" class="file">
+                                        </div>
+                                        <hr>
+                                        <div class="row col-md-8">
+                                            <label class="control-label">
+                                                <h3>Select File
+                                                    <small>Upload the scanned ScheduleA Form</small>
+                                                </h3>
+                                            </label>
+                                            <input id="input-3" type="file" class="file">
+                                        </div>
+                                    </fieldset>
+                                </form>
+                            </div>
+
+                            <div class="col-md-11">
+
+                                <div class="form-group col-md-4 center-block">
+                                    <a href="#" class="btn btn-lg btn-success">
+                                        <span class="glyphicon glyphicon-ok"></span> Approve
+                                    </a>
+                                </div>
+
+                                <div class="form-group col-md-4 center-block">
+                                    <a href="#" class="btn btn-lg btn-warning">
+                                        <span class="glyphicon glyphicon-remove"></span> Disapprove
+                                    </a>
+                                </div>
+
+                                <div class="form-group col-md-4 center-block">
+                                    <button type="button" class="btn btn-lg center-block">
+                                        <a href="chargesAndBillingsStateStaff.html">
+                                            <span>Continue  </span>
+                                        </a>
+                                    </button>
+                                </div>
+
+                            </div>
+
+                        </div><!-- /.container -->
+                    </div>
+
+
+                </div>
+                <!-- Right margin -->
+                <div class="col-md-1">
+                </div>
+            </div>
+
+        </div>
+        <!-- /.row -->
+        <hr>
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; NJDA 2016</p>
+                </div>
+            </div>
+        </footer>
+    </div> <!-- Content Wrapper div -->
+</div> <!-- Wrapper div -->
+<!-- /.container -->
+<script src="../bower_components/jquery/dist/jquery.min.js"></script>
+<script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="../bower_components/bootstrap-fileinput/js/fileinput.min.js"></script>
+<script>
+    $(function() {
+        $('#btnModalLaunch').click(function() {
+            $('#reasonModal').modal('show');
+        });
+
+        $('#btnSave').click(function() {
+            var value = $('#disapprovalMsg').val();
+            $('#disapproveReason').html(value);
+            $('#disApproveDiv').css({ display: "block" });
+            $('#reasonModal').modal('hide');
+
+        });
+    });
+</script>
+
+</body>
+</html>
