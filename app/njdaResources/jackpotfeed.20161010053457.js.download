@@ -1,0 +1,26 @@
+(function(d,c){portalGGA.views.JackpotFeed=Backbone.View.extend({constructor:function b(f){console.log("in jackpotfeed constructor");
+Backbone.View.apply(this,arguments);
+this.draws=f.draws||new d();
+this.numberGameDraws=f.numberGameDraws||new d();
+c.bindAll(this,"displayJackpotGames");
+var e=this;
+this.draws.fetch({data:{"next-draws":0,"game-names":"Powerball,Mega Millions,Pick 6,Cash 5,Cash 4 Life,Five Card Cash",status:"OPEN"},error:function(g){},success:function(g){e.displayJackpotGames()
+}})
+},displayJackpotGames:function a(){var e=this;
+console.log("in displayJackpotGames",e);
+c.each(e.draws.toJSON(),function(f){console.log("Game=",f);
+if(f&&f.gameName=="Powerball"){$(".pbdate").text(portalGGA.utils.formattedDateWithFullWeekday(f.drawTime,true));
+$(".pbamount").text("$ "+portalGGA.utils.formattedAmount(f.estimatedJackpot/100))
+}else{if(f&&f.gameName=="Mega Millions"){$(".mmdate").text(portalGGA.utils.formattedDateWithFullWeekday(f.drawTime,true));
+$(".mmamount").text("$ "+portalGGA.utils.formattedAmount(f.estimatedJackpot/100))
+}else{if(f&&f.gameName=="Pick 6"){$(".pick6date").text(portalGGA.utils.formattedDateWithFullWeekday(f.drawTime,true));
+$(".pick6amount").text("$ "+portalGGA.utils.formattedAmount(f.estimatedJackpot/100))
+}else{if(f&&f.gameName=="Cash 5"){$(".cash5date").text(portalGGA.utils.formattedDateWithFullWeekday(f.drawTime,true));
+$(".cash5amount").text("$ "+portalGGA.utils.formattedAmount(f.estimatedJackpot/100))
+}else{if(f&&f.gameName=="Cash 4 Life"){$(".cash4lifedate").text(portalGGA.utils.formattedDateWithFullWeekday(f.drawTime,true))
+}else{if(f&&f.gameName=="Five Card Cash"){$(".5cardcashdate").text(portalGGA.utils.formattedDateWithFullWeekday(f.drawTime,true));
+var g="100,000";
+$(".5cardcashamount").text("$ "+g)
+}}}}}}})
+}})
+}(portalGGA.models.Draws,_));

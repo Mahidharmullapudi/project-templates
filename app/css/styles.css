@@ -198,3 +198,15 @@ footer {
     margin-right: -150px;
 }
 
+.navbar-fixed-top {
+    top: 95px;
+}
+
+#header-frame {
+    top: 0;
+    position: fixed;
+    background-color: #FFFFFF;
+    height: 95px;
+    width: 100%;
+}
+

@@ -1,0 +1,310 @@
+/* CSS for jQuery Orbit Plugin 1.2.3
+ * www.ZURB.com/playground
+ * Copyright 2010, ZURB
+ * Free to use under the MIT license.
+ * http://www.opensource.org/licenses/mit-license.php
+ 
+ 
+ 
+/* PUT IN YOUR SLIDER ID AND SIZE TO MAKE LOAD BEAUTIFULLY
+   ================================================== */
+div.orbit-wrapper #featured {
+	width: 290px;
+	min-height: 260px;
+	overflow: hidden;
+	background-color: #fff;
+	background-image: url(/nj/assets/js/orbit/loading.gif);
+	background-repeat: no-repeat;
+	background-position: center top;
+	padding: 0;
+	float: left;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+#featured>img,  
+#featured>div,
+#featured>a { display: none; }
+
+
+
+
+/* CONTAINER
+   ================================================== */
+
+div.orbit-wrapper {
+
+    height: 1px;
+    position: relative; }
+
+div.orbit {
+    width: 1px;
+    height: 1px;
+    position: relative;
+    overflow: hidden;
+	background-color:#FFF; }
+
+div.orbit>img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none; }
+
+div.orbit>a {
+    border: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    line-height: 0; 
+    display: none; }
+
+.orbit>div {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 275px;
+	min-height: 250px;
+	background-color:#FFF;
+	
+	
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: 0;
+	padding-left:0;
+	padding-right:0;
+}
+
+/* Note: If your slider only uses content or anchors, you're going to want to put the width and height declarations on the ".orbit>div" and "div.orbit>a" tags in addition to just the .orbit-wrapper */
+#featured div.content {
+	background-color: #FFF;
+	width: 275px;
+	min-height: 285px;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 23px;
+	padding-top: 0;
+	padding-bottom: 0;
+	padding-left: 0px;
+	padding-right: 0px;
+	font-family: "HelveticaNeue", "Helvetica-Neue", Helvetica, Arial, sans-serif; 
+}
+.content img {
+	
+	width: 250px;
+	height: auto;
+
+	margin-right: 0;
+	margin-bottom: 15px;
+	margin-left: 0;
+	padding: 0;
+	
+}
+div.content.content div.dscrpn {
+	width: 245px;
+	float: left;
+	padding: 0px;
+	display: inline-block;
+	line-height: 1.1em;
+
+	margin-top: 0;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+}
+div.dscrpn ul{
+	float: left;
+	max-width: 245px;
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+div.dscrpn ul li { padding-bottom: 3px; padding-top: 3px;padding-left: 15px; background: url(/nj/assets/imgs/arr_gr.png) no-repeat 0 8px; margin-bottom: 1px;}
+a.more_btn {
+	min-width: 60px;
+	border: 1px solid #d6d6d6;
+	background: #ededed;
+
+	line-height: 16px;
+	text-decoration: none;
+	font-weight: 500;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-khtml-border-radius: 3px;
+	padding-top: 3px;
+	padding-right: 7px;
+	padding-bottom: 3px;
+	padding-left: 7px;
+	margin-top: 10px;
+}
+
+a.more_btn:hover { text-decoration: none;  }
+/* TIMER
+   ================================================== */
+
+div.timer {
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    position: absolute;
+	visibility:hidden;
+    top: 10px;
+    right: 10px;
+    opacity: .6;
+    cursor: pointer;
+    z-index: 1001;
+	padding: 0px;
+	margin-top: 10px;
+}
+
+span.rotator {
+    display: block;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    left: -20px;
+	background-image: none;
+	visibility: hidden;
+/* background: url(/nj/assets/js/orbit/rotator-black.png) no-repeat;*/
+    z-index: 3; }
+
+span.mask {
+    display: block;
+    width: 20px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    overflow: hidden; }
+
+span.rotator.move {
+    left: 0 }
+
+span.mask.move {
+    width: 40px;
+    left: 0;
+    background: url(/nj/assets/js/orbit/timer-black.png) repeat 0 0;
+	visibility:hidden;
+	display: none; }
+
+span.pause {
+    display: block;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(/nj/assets/js/orbit/pause-black.png) no-repeat;
+    z-index: 4;
+    opacity: 0; 
+	display: none;}
+
+span.pause.active {
+    background: url(/nj/assets/js/orbit/pause-black.png) no-repeat 0 -40px);
+	display: none; }
+
+div.timer:hover span.pause,
+span.pause.active {
+    opacity: 1;
+	display: none;}
+
+
+/* CAPTIONS
+   ================================================== */
+
+.orbit-caption {
+    display: none;
+    font-family: "HelveticaNeue", "Helvetica-Neue", Helvetica, Arial, sans-serif; }
+
+.orbit-wrapper .orbit-caption {
+    background: #000;
+    background: rgba(0,0,0,.6);
+    z-index: 1000;
+    color: #fff;
+	text-align: center;
+	padding: 7px 0;
+    font-size: 13px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+	display: none;
+	 }
+
+
+/* DIRECTIONAL NAV
+   ================================================== */
+
+div.slider-nav {
+    display: none; }
+
+div.slider-nav span {
+    width: 78px;
+    height: 100px;
+    text-indent: -9999px;
+    position: absolute;
+    z-index: 1000;
+    top: 99%;
+    margin-top: -50px;
+    cursor: pointer;
+	display: none; }
+
+div.slider-nav span.right {
+    background: url(/nj/assets/js/orbit/right-arrow.png);
+    right: 0; }
+
+div.slider-nav span.left {
+    background: url(/nj/assets/js/orbit/left-arrow.png);
+    left: 0; }
+
+/* BULLET NAV
+   ================================================== */
+
+ul.orbit-bullets {
+    position: absolute;
+    z-index: 15000;
+    list-style: none;
+ 
+    left: 50%;
+	margin-left: -50px;
+    padding: 0;
+	float: left;
+	
+	  bottom: -40px;
+}
+
+ul.orbit-bullets li {
+	float: left;
+	margin-left: 3px;
+	cursor: pointer;
+	color: #999;
+	text-indent: -9999px;
+	background-image: url(/nj/assets/js/orbit/bullets.png);
+	width: 12px;
+	height: 12px;
+
+	overflow: hidden;
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	padding: 0;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+ }
+
+ul.orbit-bullets li.active {
+    color: #222;
+    background-position: -13px 0; }
+    
+.orbit-bullets li.has-thumb {
+    background: none;
+    width: 100px;
+    height: 75px; }
+
+.orbit-bullets li.active.has-thumb {
+    background-position: 0 0;
+    border-top: 2px solid #000; }

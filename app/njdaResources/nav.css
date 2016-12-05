@@ -1,0 +1,458 @@
+@charset "utf-8";
+/* CSS Document */
+/* Clearfix */
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;
+}
+#mynj {
+	/* background: url(/nj/assets/imgs/mynj_btn.png) no-repeat 0 0;
+	padding-left: 103px;
+ */
+	height: 30px;
+		
+	padding-left: 10px;
+		
+			margin-top: 58px;
+			
+			color: #333366;
+			
+		
+}
+#mynj a { display: inline-block; color: #333366; padding:8px 11px;}
+
+#nav {
+	height: 55px;
+	width: 100%;
+	/* background-color: #b3bdc7; */
+	background-color: #0066cc;
+	font-size: 0.9em;
+	font-weight: 600;
+	font-style: none;
+	position: absolute;
+	top: 98px;
+	left: 0;
+	border-bottom: 0px solid #0458ab;
+	background-image: url(/nj/assets/imgs/bg_nav.png);
+	background-repeat: repeat-x;
+	background-position: left bottom;
+	text-align: center;
+	z-index: 25000;
+		}
+		#nav ul {
+			
+		
+			padding: 0;
+			margin: 0 auto;
+			width: 1000px;
+			height: 55px;
+			text-align:left;
+			
+			
+			
+		
+		}
+		#nav ul li {
+			display: inline;
+			width:10.6%;
+			float: left;
+			height: 55px;
+			border-bottom: 0px solid #0458ab;
+				border-right: 1px solid #0066cc;
+	
+		}
+			#nav li:first-child{ width:10.0%;}
+		#nav li a {
+	color: #fff;
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	text-decoration: none;
+	line-height: normal;
+font-weight: 600;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	padding-top: 13px;
+	height: 42px;
+	padding-right: 0;
+	padding-bottom: 0px;
+	padding-left: 0;
+	
+
+		} 
+		
+	#nav li.icon_home{
+	width: 30px;
+
+ background: url(/nj/assets/imgs/home.png)  no-repeat 0 15px;
+	}
+#nav li.wide{
+	width: 11%;
+}
+			
+
+			#nav li:hover {
+				font-weight: 700;
+				border-bottom: 4px solid #f18c1c;
+			
+} 
+	
+	#nav li.active {
+				font-weight: 700;
+				border-bottom: 4px solid #f18c1c;
+			
+				/* background-color: #f18c1c;
+				 */
+				  
+			
+		}
+
+		#nav li a:hover {color: #fff;}
+		#nav a#handle {  
+			display: none;  
+			font-weight: bold;
+		} 
+		
+<!-- sec page --->	
+/* -------------------------------  Secondary Level ----------------------------------------------------------- */
+
+
+	#navigation2 {
+	width: 190px; float: left;  margin: 0px; padding-bottom: 20px;
+}
+	#navigation2 ul.nav_sec ul {width: 190px;}
+	
+ul.nav_sec {
+	
+		color: #34495e;
+	font-weight: 600;
+	padding: 12px 0;
+	list-style: none;
+
+	float: left;
+	margin-bottom: 10px;
+	padding: 0;
+	margin-left: 0px;
+	border-top: 12px solid #b3bdc7;
+	border-bottom: 12px solid #b3bdc7;
+	margin-top: 0px;
+	margin-right: 0px;
+	width: 166px;	
+}
+#navigation2 ul.nav_sec  {	width: 190px;	}
+ul.nav_sec li{
+	display: block;
+
+	margin: 0px;
+	margin-top: 1px;
+	margin-right: 0;
+	margin-bottom: 1px;
+	margin-left: 0;
+padding: 0.7em 0.5em 0.7em 0.4em;
+
+	text-decoration: none;
+	border: 0px !important;
+}
+ul.nav_sec li:hover {
+	background-color: #e5e5e5;
+	color: #000;
+}
+	
+ul.nav_sec li a{
+	font-size: 12px;
+	font-weight:600;
+	color: #333;
+	
+
+	background-image: none;
+	
+	padding-bottom: 0px;
+	text-decoration: none;
+
+}
+
+
+
+#navigation2 ul.nav_sec li.active {
+	/*	background: #dbdcde url(/nj/images/include_images/arrow_black.gif) no-repeat 0px 8px;*/
+	color: #000;
+	background-color: #e5e5e5;
+	color: #0066cc;
+}
+
+/*------- Third Level----------------------*/
+#navigation2 ul.nav_sec li.leftNavTertiaryOff, #navigation2 ul.nav_sec li.leftNavTertiaryOn {
+	padding-left: 22px;
+
+	
+	/* background: #f3f5f7 url(/nj/assets/imgs/arr-ico_gr.png) no-repeat 10px 10px;*/
+	display: block;
+	
+	border-bottom: 1px solid #ccc;
+}
+#navigation2 ul.nav_sec li.leftNavTertiaryOn, #navigation2 ul.nav_sec li.leftNavTertiaryOff:hover {
+	/*background: #d2edf3 url(/nj/images/include_images/arrow.gif) no-repeat 21px 8px;*/
+	text-decoration: none;
+		background-image: url(/nj/images/include_images/arrow.gif);
+	background-repeat: no-repeat;
+	background-position: 10px center;
+}
+#navigation2 ul.nav_sec li.leftNavTertiaryOff {
+	/*	background: transparent url(/nj/images/include_images/arrow.gif) no-repeat 11px 6px;
+	background-color: #d2edf3;*/
+	color: #95B03B;
+		border-bottom: 1px solid #ccc;
+}
+#navigation2 ul.nav_sec li.leftNavTertiaryOn a {
+	color: #09488f;
+	text-decoration: underline;
+}
+#navigation2 ul.nav_sec li.leftNavTertiaryOff a {
+	color: #09488f;
+	text-decoration: none;
+}
+#navigation2 li.leftNavTertiaryOn:hover, li.leftNavTertiaryOff:hover {
+	text-decoration: none;
+	background-color: none;
+	background-image: url(/nj/images/include_images/arrow.gif);
+	background-repeat: no-repeat;
+	background-position: 10px center;
+}
+/* -------------------------------  Third Level ----------------------------------------------------------- */
+
+
+#navigation3 {
+	width: 170px;
+	width: 170px!important;
+	font-size:0.9em;
+	background: #d2edf3 url(/nj/images/include_images/nav_bg_top.gif ) 0 top no-repeat;
+	margin: 5px 0px 0px;
+	padding: 12px 0px 0px 0;
+}
+#nav_title {
+	color: #000;
+	font-weight: bold;
+	padding-left: 30px;
+	padding-top: 1px;
+}
+#navigation3 ul.nav_third {
+	width: 170px;
+	width: 170px!important;
+	margin: 0;
+	padding: 0 0 0px;
+	list-style: none;
+	padding: 0 0 0px;
+	margin: 0;/*background: background: #d8e2b7 url(/nj/images/include_images/arrow.gif) 0 bottom no-repeat; */
+}
+#navigation3 ul.nav_third li.leftNavSecondaryOn {
+	background: #d8e2b7 url(/nj/images/include_images/arrow_black.gif) no-repeat 8px 7px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	color: #000;
+	margin: 0px;
+	border-top: 1px solid #fff;
+	padding-left: 20px;
+}
+#navigation3 ul.nav_third li.leftNavSecondaryOn a {
+	color: #000;
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+ul.nav_third li {
+	margin: 6px 0.15em 6px 0em;
+	display: block;
+	padding-top: 0px;
+	padding-bottom: 4px;
+	padding-left: 30px;
+	border-bottom: 1px solid #e5e5e5;
+}
+#navigation3 ul.nav_third li a {
+	width: 145px;
+	color: #95B03B;
+	text-decoration: none;
+	padding: 0px 0px 0px;
+}
+#navigation3 ul.nav_third li a:hover {
+	color: #242424;
+}
+#navigation3 ul.nav_third li.leftNavTertiaryOn {
+	padding-left: 30px;
+	background: #d2edf3 url(/nj/images/include_images/arrow.gif) no-repeat 21px 6px;
+}
+#navigation3 ul.nav_third li.leftNavTertiaryOff {
+	background-color: #d2edf3;
+	padding-left: 30px;
+	color: #95B03B;
+}
+#navigation3 ul.nav_third li.leftNavTertiaryOn a {
+	color: #09488f;
+	text-decoration: underline;
+}
+#navigation3 ul.nav_third li.leftNavTertiaryOff a {
+	color: #09488f;
+	text-decoration: none;
+}
+li.leftNavTertiaryOn:hover, li.leftNavTertiaryOff:hover {
+	background: transparent url(/nj/images/include_images/arrow.gif) no-repeat 21px 6px;
+	text-decoration: underline;
+}
+/* ---------------------------------- Right Navigation ----------------------------- */
+div#rightNav {
+	width: 175px;
+	margin-right: 0px;
+	margin-bottom: 15px;
+	padding: 0px;
+}
+div#rightNav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+div#rightNav li {
+	border-bottom: 1px solid #fff;
+	margin: 0;
+}
+div#rightNav li a {
+	font-size:0.9em;
+	display: block;
+	padding: 5px 5px 5px 10px;
+	border-left: 9px solid #b2c671;
+	background-color: #b2c671;
+	color: #000;
+	text-decoration: none;
+	width: 151px;
+}
+div#rightNav li a:hover {
+	font-size:0.9em;
+	display: block;
+	padding: 5px 5px 5px 10px;
+	border-left: 9px solid #a1b75a;
+	background-color: #b2c671;
+	color: #000;
+	text-decoration: none;
+	width: 151px;
+}
+div#staticRightNav {
+	width: 175px;
+	margin-right: 0px;
+	margin-bottom: 15px;
+	padding: 0px;
+}
+/* ---------------------------------- Right Navigation ----------------------------- */
+div#rightNav {
+border: 1px solid red; width: 186px; float: left; background-color: #FFF; margin-right: 0px; padding-bottom: 20px; display: table-cell;}
+
+div#rightNav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+div#rightNav li {
+	border-bottom: 1px solid #fff;
+	margin: 0;
+}
+div#rightNav li a {
+	font-size:0.9em;
+	display: block;
+	padding: 5px 5px 5px 10px;
+	border-left: 9px solid #b2c671;
+	background-color: #b2c671;
+	color: #000;
+	text-decoration: none;
+	width: 151px;
+}
+div#rightNav li a:hover {
+	font-size:0.9em;
+	display: block;
+	padding: 5px 5px 5px 10px;
+	border-left: 9px solid #a1b75a;
+	background-color: #b2c671;
+	color: #000;
+	text-decoration: none;
+	width: 151px;
+}
+div#staticRightNav {
+	width: 175px;
+	margin-right: 0px;
+	margin-bottom: 15px;
+	padding: 0px;
+}
+/* --------------------- Right Navigation Top for listing and photo Gallery Pages ----------------------- */	
+ div#rightNavTop {
+	margin-right: 0px;
+	margin-bottom: 15px;
+	padding: 0px 0px 0px 16px;
+}
+div#rightNavTop ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+div#rightNavTop li {
+	float: left;
+	margin: 0;
+}
+div#rightNavTop li a {
+	font-size: 12px;
+	display: inline;
+	padding: 5px 15px 5px 0px;
+	color: #0971D4;
+	text-decoration: underline;
+	margin: 0px;
+}
+div#rightNavTop li a:hover {
+	font-size:12px;
+	display: inline;
+	padding: 5px 15px 5px 0px;
+	color: #E48322;
+	text-decoration: underline;
+	margin: 0px;
+}
+div#rightNavTop li a.rightNavOn {
+	color: #e58426;
+}
+
+/* --------------------- Right Navigation Top for listing and photo Gallery Pages ----------------------- */	
+ div#rightNavTop {
+	margin-right: 0px;
+	margin-bottom: 15px;
+	padding: 0px 0px 0px 16px;
+}
+div#rightNavTop ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+div#rightNavTop li {
+	float: left;
+	margin: 0;
+}
+div#rightNavTop li a {
+	font-size: 12px;
+	display: inline;
+	padding: 5px 15px 5px 0px;
+	color: #0971D4;
+	text-decoration: underline;
+	margin: 0px;
+}
+div#rightNavTop li a:hover {
+	font-size:12px;
+	display: inline;
+	padding: 5px 15px 5px 0px;
+	color: #E48322;
+	text-decoration: underline;
+	margin: 0px;
+}
+div#rightNavTop li a.rightNavOn {
+	color: #e58426;
+}
+	
