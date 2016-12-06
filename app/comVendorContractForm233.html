@@ -478,10 +478,12 @@
                                             <label>All vended meals supplied by Vendor will include milk.</label>
                                         </div>
                                         <div class="checkbox">
-                                            <label><input type="checkbox" value="">Option 2</label>
+                                            <input type="checkbox" value="">
+                                            <label>Option 2</label>
                                         </div>
                                         <div class="checkbox disabled">
-                                            <label><input type="checkbox" value="" disabled>Option 3</label>
+                                            <input type="checkbox" value="" disabled>
+                                            <label>Option 3</label>
                                         </div>
 
                                     </fieldset>
@@ -493,16 +495,48 @@
                                     <fieldset>
                                         <legend>4. Menus</legend>
 
-                                        <h4> Under this contract, Vendor will provide (SFA - MUST check all that apply)</h4>
+                                        <h4> After the initial supply of vended meals in accordance with the school menu,
+                                            how will the vendo supply the meals.<br>
+                                            <small>(Select one that apply)</small>
+                                        </h4>
 
-                                        <div class="checkbox">
-                                            <label><input type="checkbox" value="">Option 1</label>
+                                        <div class="radio">
+                                            <input type="radio" name="mealRadios" id="radio1" value="option2">
+                                            <label for="radio1">
+                                                Vendor will provide the meal calendar to the school
+                                            </label>
                                         </div>
-                                        <div class="checkbox">
-                                            <label><input type="checkbox" value="">Option 2</label>
+
+                                        <div id="vendorMealCal" style="display:none" class="">
+
+                                            <h6>Vendor will provide menu based on the
+                                                    following time frame: </h6>
+
+                                            <div class="checkbox">
+                                                <input type="checkbox" value="">
+                                                <label>Weekly</label>
+                                            </div>
+                                            <div class="checkbox">
+                                                <input type="checkbox" value="">
+                                                <label>Bi-weekly</label>
+                                            </div>
+                                            <div class="checkbox">
+                                                <input type="checkbox" value="">
+                                                <label>Monthly</label>
+                                            </div>
+                                            <div class="form-group">
+                                                <label>How many days in advance will the vendor provide the SFA
+                                                    with menus: </label>
+                                                <input type="text" name="" placeholder="">
+                                            </div>
+
                                         </div>
-                                        <div class="checkbox disabled">
-                                            <label><input type="checkbox" value="" disabled>Option 3</label>
+
+                                        <div class="radio">
+                                            <input type="radio" name="mealRadios" id="radio2" value="option2">
+                                            <label for="radio2">
+                                                SFA will develop the monthly menu
+                                            </label>
                                         </div>
 
                                     </fieldset>
@@ -523,7 +557,7 @@
                                             <label><input type="checkbox" value="">Option 2</label>
                                         </div>
                                         <div class="checkbox disabled">
-                                            <label><input type="checkbox" value="" disabled>Option 3</label>
+                                            <label><input type="checkbox" value="">Option 3</label>
                                         </div>
 
                                     </fieldset>
@@ -606,6 +640,23 @@
 <script src="../bower_components/jquery/dist/jquery.min.js"></script>
 <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 <script src="../bower_components/bootstrap-fileinput/js/fileinput.min.js"></script>
+
+<script>
+    $(function() {
+
+        $('#radio1').click(function() {
+
+            $('#vendorMealCal').css({ display: "block" });
+
+        });
+
+        $('#radio2').click(function() {
+
+            $('#vendorMealCal').hide();
+
+        });
+    });
+</script>
 
 </body>
 </html>
