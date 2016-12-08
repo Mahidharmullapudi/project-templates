@@ -23,97 +23,6 @@
     float: left;
 }
 
-.footer {
-    margin-top: 0px;
-    width: 100%;
-}
-
-.footer_inner {
-    background-color: #016bd9;
-
-    width: 990px;
-    height: 155px;
-    margin-top: 0px;
-    margin-right: auto;
-    margin-bottom: 0;
-    margin-left: auto;
-    padding-top: 10px;
-    padding-right: 5px;
-    padding-bottom: 0px;
-    padding-left: 5px;
-}
-
-.footer-bottom {
-    width: 550px;
-    float: left;
-    color: #fff;
-    line-height: 1em;
-    font-size: 0.87em;
-    padding-bottom: 10px;
-}
-
-.footer-bottom p {
-    float: left;
-}
-
-.footer-bottom .footer-nav {
-    width: 100%;
-    line-height: 11px;
-    margin: 15px 0;
-    clear: both;
-}
-
-.footer-bottom .footer-nav ul {
-    list-style: none;
-    list-style-position: outside;
-}
-
-.footer-bottom .footer-nav ul li {
-    display: inline;
-    font-size: 11px;
-    color: #fff;
-    border-left: 1px solid #fff;
-    padding: 0 11px;
-}
-
-.footer-bottom .footer-nav ul li:first-child {
-    padding-left: 0;
-    border-left: 0;
-}
-
-.footer-bottom .footer-nav ul li a {
-    color: #fff;
-}
-
-.footer-bottom .footer-nav ul li a:hover, .footer-bottom .footer-nav ul li.active a {
-    color: #fff;
-    text-decoration: underline;
-}
-
-.footer-bottom p.copy {
-    float: right;
-    line-height: 11px;
-    font-size: 11px;
-    color: #5f6261;
-}
-
-.footer-bottom p.copy span {
-    padding: 0 11px;
-}
-
-.footer-bottom p.copy a {
-    color: #2b9208;
-    text-decoration: underline;
-}
-
-.footer-bottom p.copy a:hover {
-    text-decoration: none;
-}
-
-.footer-bottom p.copy strong {
-    font-weight: normal;
-}
-
 /* Header csss  */
 #header {
     height: 95px;
@@ -317,3 +226,9 @@ div#govHeader {
     text-align: center;
     border: 1px solid #f08000;
 }
+
+footer {
+    background-color: #016bd9;
+    padding-top: 20px;
+}
+

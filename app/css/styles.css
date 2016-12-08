@@ -66,12 +66,6 @@ header.carousel .fill {
     font-size: 100px;
 }
 
-/* Footer Styles */
-
-footer {
-    margin: 50px 0;
-}
-
 /* Responsive Styles */
 
 @media (max-width: 991px) {
@@ -188,18 +182,25 @@ footer {
 }
 
 #page-wrapper {
-    width: 100%;
+    position: fixed;
+    height: 100%;
+    overflow-y: auto;
+    display: inline-block;
+    /*padding: 0 15px; */
+
+    /*width: 100%;
     position: absolute;
-    padding: 15px;
+    padding: 15px; */
 }
 
+
+
 #sidebar-wrapper.toggled #page-wrapper {
-    position: absolute;
     margin-right: -150px;
 }
 
 .navbar-fixed-top {
-    /*top: 95px; */
+    top: 95px;
 }
 
 #header-frame {
