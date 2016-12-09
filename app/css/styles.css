@@ -6,7 +6,7 @@ body {
 }
 
 body {
-    margin-top: 100px;
+    /*margin-top: 100px; */
     background-color: #fff;
     overflow-x: hidden;
 }
@@ -109,7 +109,6 @@ header.carousel .fill {
         padding-top: 50px;
         padding-bottom: 40px;
     } */
-
     #sidebar-wrapper {
         position: fixed;
         top: 51px;
@@ -117,7 +116,7 @@ header.carousel .fill {
         width: 150px;
         height: 100%;
         /* Overriding the max-height property of sideNav*/
-        max-height:none;
+        max-height: none;
         margin-left: -150px;
         overflow-y: auto;
         background-color: #114041;
@@ -193,21 +192,70 @@ header.carousel .fill {
     padding: 15px; */
 }
 
-
-
 #sidebar-wrapper.toggled #page-wrapper {
     margin-right: -150px;
 }
 
 .navbar-fixed-top {
-    top: 95px;
+    top: 80px;
 }
 
-#header-frame {
-    top: 0;
+#header {
+    height: 80px;
+}
+
+#primary-nav.affix {
     position: fixed;
-    background-color: #FFFFFF;
-    height: 95px;
+    top: 0;
     width: 100%;
+    z-index: 10;
 }
 
+/* NJDA Header Styles */
+
+.menu-wrap {
+    width: 360px;
+    float: right;
+    padding-right: 0px;
+    text-align: right;
+    display: block;
+}
+
+div#govHeader {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: #222;
+    padding-top: 0;
+    padding-right: 0px;
+    padding-bottom: 5px;
+    padding-left: 0;
+    float: right;
+}
+
+.menu-wrap div#govHeader a {
+    display: inline;
+    font-weight: 500;
+    float: left;
+    padding-bottom: 0;
+    color: #333;
+    margin: 0;
+    padding-top: 7px;
+    padding-right: 8px;
+    padding-left: 0px;
+    font-size: 0.87em;
+    font-weight: 600;
+    display: inline;
+}
+
+.menu-wrap div#govHeader a:last-child {
+    padding-right: 0px;
+}
+
+.menu {
+    text-align: right;
+    margin-top: 0px;
+    padding-top: 0px;
+    float: right;
+    padding-right: 0px;
+    width: 350px;
+}
