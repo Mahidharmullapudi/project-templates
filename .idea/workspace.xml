@@ -1,60 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c5e03468-d347-497a-8f12-06cddac667e8" name="Default" comment="Added a new page for contractForm#233 and also another page for Contracts summary">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/seal.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/njdaResources/2016seasonofservice.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/njdaResources/9-1-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/njdaResources/@nj.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/njdaResources/batsto_village_01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/njdaResources/fallen_heroes.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/njdaResources/gorr.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/njdaResources/gov_cc.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/njdaResources/icon_lottery.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/njdaResources/icon_mobile.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/njdaResources/icon_social.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/njdaResources/logo_visitnj.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/njdaResources/njstart.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/njdaResources/no_jersey_03.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/njdaResources/opra.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/njdaResources/peapack_park_03.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/njdaResources/pensionfraud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/njdaResources/pequest_01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/njdaResources/safe_nj.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/njdaResources/sandy_transparency.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/njdaResources/seal.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/njdaResources/tourism_01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/njdaResources/your_money_spot.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/css/njdaFooter.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/ecasPrimeTopNavbarStateStaff.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/headerEssentials.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/headerEssentials.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/njdaFooter.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/njdaHeader.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/njdaHome.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/njdaResources/css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/njdaResources/css(1)" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/njdaResources/flexslider.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/njdaResources/functions.js.download" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/njdaResources/home.20161010053457.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/njdaResources/home.20161010053457.js.download" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/njdaResources/jackpot-feed.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/njdaResources/jackpotfeed.20161010053457.js.download" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/njdaResources/jquery-1.8.0.min.js.download" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/njdaResources/jquery.20161010053457.js.download" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/njdaResources/jquery.easing.js.download" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/njdaResources/jquery.flexslider.js.download" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/njdaResources/jquery.orbit.min.js.download" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/njdaResources/modernizr.custom.js.download" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/njdaResources/nav.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/njdaResources/orbit.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/njdaResources/shared.20161010053457.js.download" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/njdaResources/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/njdaResources/webtrends.js.download" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/primeFooter.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/primeTopNavbar.html" />
+    <list default="true" id="c5e03468-d347-497a-8f12-06cddac667e8" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/css/timesheet-styles.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/manageTimesheet.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/comVendorContractStateStaff.html" afterPath="$PROJECT_DIR$/app/comVendorContractStateStaff.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/styles.css" afterPath="$PROJECT_DIR$/app/css/styles.css" />
     </list>
     <ignored path="project-templates.iws" />
@@ -81,137 +31,58 @@
       <file leaf-file-name="comVendorContractStateStaff.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/comVendorContractStateStaff.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="16" lean-forward="false" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+            <state relative-caret-position="240">
+              <caret line="665" column="22" lean-forward="false" selection-start-line="665" selection-start-column="22" selection-end-line="665" selection-end-column="22" />
               <folding>
-                <element signature="n#div#6;n#fieldset#0;n#form#0;n#div#5;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="e#38795#38800#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="njdaHeader.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/njdaHeader.html">
+      <file leaf-file-name="manageTimesheet.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/manageTimesheet.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+            <state relative-caret-position="377">
+              <caret line="260" column="8" lean-forward="false" selection-start-line="260" selection-start-column="8" selection-end-line="260" selection-end-column="8" />
               <folding>
-                <element signature="e#391#397#0" expanded="true" />
+                <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/css/styles.css">
+      <file leaf-file-name="form233StateStaff.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/form233StateStaff.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="179" column="1" lean-forward="true" selection-start-line="179" selection-start-column="1" selection-end-line="179" selection-end-column="1" />
+            <state relative-caret-position="340">
+              <caret line="660" column="40" lean-forward="true" selection-start-line="660" selection-start-column="40" selection-end-line="660" selection-end-column="40" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="njdaFooter.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/njdaFooter.html">
+      <file leaf-file-name="comVendorContractForm233.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/comVendorContractForm233.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="34" column="18" lean-forward="false" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+            <state relative-caret-position="358">
+              <caret line="251" column="54" lean-forward="true" selection-start-line="241" selection-start-column="48" selection-end-line="251" selection-end-column="54" />
               <folding>
-                <element signature="e#642#647#0" expanded="true" />
+                <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#nav#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="njdaFooter.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/css/njdaFooter.css">
+      <file leaf-file-name="timesheet-styles.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/css/timesheet-styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3995">
-              <caret line="235" column="11" lean-forward="false" selection-start-line="235" selection-start-column="11" selection-end-line="235" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/njdaResources/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6749">
-              <caret line="397" column="21" lean-forward="false" selection-start-line="397" selection-start-column="21" selection-end-line="397" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="njdaHome.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/njdaHome.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1105">
-              <caret line="65" column="13" lean-forward="false" selection-start-line="65" selection-start-column="13" selection-end-line="65" selection-end-column="13" />
-              <folding>
-                <element signature="e#3506#3512#0" expanded="true" />
-                <element signature="e#4849#4855#1" expanded="true" />
-                <element signature="e#5155#5160#0" expanded="true" />
-                <element signature="e#5571#5576#0" expanded="true" />
-                <element signature="e#5805#5810#0" expanded="true" />
-                <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#li#2;n#ul#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#li#3;n#ul#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#li#4;n#ul#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#16925#16931#0" expanded="true" />
-                <element signature="e#16931#16937#0" expanded="true" />
-                <element signature="e#16937#16943#0" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#20276#20282#0" expanded="true" />
-                <element signature="e#20337#20343#1" expanded="true" />
-                <element signature="n#style#0;n#div#6;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#21204#21210#1" expanded="true" />
-                <element signature="e#21297#21303#1" expanded="true" />
-                <element signature="n#style#0;n#div#7;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#21980#21986#1" expanded="true" />
-                <element signature="e#22030#22036#1" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#span#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#23701#23706#0" expanded="true" />
-                <element signature="n#style#0;n#iframe#0;n#p#0;n#div#1;n#div#3;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#26677#26682#0" expanded="true" />
-                <element signature="e#28627#28631#0" expanded="true" />
-                <element signature="e#28634#28638#0" expanded="true" />
-                <element signature="e#28638#28642#0" expanded="true" />
-                <element signature="e#28783#28788#0" expanded="true" />
-                <element signature="e#28800#28805#0" expanded="true" />
-                <element signature="e#28822#28826#0" expanded="true" />
-                <element signature="e#28826#28830#0" expanded="true" />
-                <element signature="e#28834#28838#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="headerEssentials.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/headerEssentials.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="12" lean-forward="false" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="primeTopNavbar.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/primeTopNavbar.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="33" lean-forward="false" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+            <state relative-caret-position="30">
+              <caret line="2" column="1" lean-forward="false" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -223,20 +94,13 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>col-md-4</find>
-      <find>col-md-7</find>
-      <find>contract info</find>
-      <find>manage my banks</find>
-      <find>pay bill</find>
-      <find>progress-tracker-wrapper</find>
-      <find>chec</find>
       <find>commercial ve</find>
       <find>text</find>
       <find>4</find>
@@ -254,12 +118,19 @@
       <find>The Official Web Site for The State of New Jersey_files</find>
       <find>./The Official Web Site for The State of New Jersey_files</find>
       <find>/njdaResources</find>
-      <find>header</find>
-      <find>logo</find>
       <find>menu-wrap</find>
       <find>search</find>
       <find>script</find>
       <find>seal</find>
+      <find>menus</find>
+      <find>input</find>
+      <find>second-footer-frame</find>
+      <find>footer</find>
+      <find>logo</find>
+      <find>navbar-fixed-top</find>
+      <find>header</find>
+      <find>page-header</find>
+      <find>date</find>
     </findStrings>
     <replaceStrings>
       <replace>col-md-11</replace>
@@ -296,7 +167,6 @@
         <option value="$PROJECT_DIR$/app/amexPaymentPage.html" />
         <option value="$PROJECT_DIR$/app/progressbar.html" />
         <option value="$PROJECT_DIR$/app/commercialVendorContractSummary.html" />
-        <option value="$PROJECT_DIR$/app/comVendorContractForm233.html" />
         <option value="$PROJECT_DIR$/app/css/contractFormStyles.css" />
         <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/comVendorContractStateStaff.html" />
@@ -306,17 +176,21 @@
         <option value="$PROJECT_DIR$/app/chargesAndBillingsStateStaff.html" />
         <option value="$PROJECT_DIR$/app/topNavbar.html" />
         <option value="$PROJECT_DIR$/app/js/script.js" />
-        <option value="$PROJECT_DIR$/app/primeFooter.html" />
         <option value="$PROJECT_DIR$/app/ecasPrimaryTopNavbarStateStaff.html" />
         <option value="$PROJECT_DIR$/app/headerEssentials.js" />
         <option value="$PROJECT_DIR$/app/headerEssentials.html" />
         <option value="$PROJECT_DIR$/app/njdaHome.html" />
         <option value="$PROJECT_DIR$/app/njdaFooter.html" />
-        <option value="$PROJECT_DIR$/app/njdaHeader.html" />
+        <option value="$PROJECT_DIR$/app/comVendorContractForm233.html" />
+        <option value="$PROJECT_DIR$/app/primeFooter.html" />
+        <option value="$PROJECT_DIR$/app/primeTopNavbar.html" />
         <option value="$PROJECT_DIR$/app/comVendorContractStateStaff.html" />
         <option value="$PROJECT_DIR$/app/njdaResources/style.css" />
         <option value="$PROJECT_DIR$/app/css/njdaFooter.css" />
+        <option value="$PROJECT_DIR$/app/njdaHeader.html" />
         <option value="$PROJECT_DIR$/app/css/styles.css" />
+        <option value="$PROJECT_DIR$/app/css/timesheet-styles.css" />
+        <option value="$PROJECT_DIR$/app/manageTimesheet.html" />
       </list>
     </option>
   </component>
@@ -327,8 +201,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1920" />
-    <option name="height" value="1200" />
+    <option name="width" value="1280" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -345,8 +219,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -364,15 +238,16 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Amex" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -386,6 +261,18 @@
       <recent name="$PROJECT_DIR$/app" />
       <recent name="C:\Users\agamull\Documents\Mahi-Documents\WebstormProjects\project-templates\app" />
     </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager" selected="JavaScript Debug.commercialVendorContract.html">
     <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/project-templates/app/index.html">
@@ -407,6 +294,13 @@
       <method />
     </configuration>
     <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
       <method />
     </configuration>
     <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
@@ -443,7 +337,7 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run-script" />
+      <command value="run" />
       <scripts />
       <node-interpreter value="project" />
       <envs />
@@ -513,6 +407,14 @@
       <workItem from="1480468877364" duration="7630000" />
       <workItem from="1480693976280" duration="12790000" />
       <workItem from="1480961640899" duration="2037000" />
+      <workItem from="1480995315256" duration="2187000" />
+      <workItem from="1481240379050" duration="7815000" />
+      <workItem from="1481346348613" duration="755000" />
+      <workItem from="1482539919896" duration="1206000" />
+      <workItem from="1483200483515" duration="551000" />
+      <workItem from="1484792436646" duration="281000" />
+      <workItem from="1490502023900" duration="68000" />
+      <workItem from="1491362707422" duration="6446000" />
     </task>
     <task id="LOCAL-00001" summary="Updating the services HTML">
       <created>1477508172116</created>
@@ -556,34 +458,47 @@
       <option name="project" value="LOCAL" />
       <updated>1480565426041</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Updated code on the Menus section of Form#233">
+      <created>1480997932053</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1480997932053</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Updated code on the Menus section of Form#233">
+      <created>1481257573068</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1481257573068</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125880000" />
+    <option name="totallyTimeSpent" value="145189000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1200" extended-state="0" />
-    <editor active="false" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26050422" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31640625" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21264894" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21182944" sideWeight="0.503125" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13204952" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21182944" sideWeight="0.496875" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3045923" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12557288" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12557288" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -622,30 +537,16 @@
     <MESSAGE value="Updating the services HTML" />
     <MESSAGE value="Updated the styles for the sidebar. &#10;Added new files for contracts system" />
     <MESSAGE value="Added a new page for Commercial Vendor Contract screen.&#10;Updated css for the contractFormStyles&#10;" />
-    <MESSAGE value="Added a new page for contractForm#233 and also another page for Contracts summary" />
     <MESSAGE value="Added new pages for Internal users to provide the capability to approve and disapprove a contract and also other updates to current pages." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added new pages for Internal users to provide the capability to approve and disapprove a contract and also other updates to current pages." />
+    <MESSAGE value="Added a new page for contractForm#233 and also another page for Contracts summary" />
+    <MESSAGE value="Updated code on the Menus section of Form#233" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated code on the Menus section of Form#233" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/img/img-cor11.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/img/img-cor7.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/img/img-cor5.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/img/img-cor4.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -705,31 +606,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/css/common_default_v3.5.css" />
-    <entry file="file://$PROJECT_DIR$/app/css/awesome-bootstrap-checkbox.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="66" column="16" lean-forward="true" selection-start-line="66" selection-start-column="16" selection-end-line="66" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/css/contractFormStyles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/sidebar.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
           <caret line="39" column="26" lean-forward="false" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/comVendorContractForm233.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="226" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="611" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -747,20 +627,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5117">
-          <caret line="345" column="14" lean-forward="false" selection-start-line="345" selection-start-column="14" selection-end-line="345" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/ecasHome.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1768">
-          <caret line="104" column="93" lean-forward="false" selection-start-line="104" selection-start-column="93" selection-end-line="104" selection-end-column="93" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/chargesAndBillings.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="239">
@@ -775,13 +641,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/form233StateStaff.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10591">
-          <caret line="623" column="0" lean-forward="false" selection-start-line="623" selection-start-column="0" selection-end-line="623" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/chargesAndBillingsStateStaff.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4165">
@@ -790,13 +649,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/js/script.js" />
-    <entry file="file://$PROJECT_DIR$/app/primeFooter.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="36" lean-forward="false" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/ecasPrimeTopNavbarStateStaff.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -804,13 +656,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/headerEssentials.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/headerEssentials.js" />
     <entry file="file://$PROJECT_DIR$/bower_components/bootstrap/dist/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="426">
@@ -825,124 +671,147 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/comVendorContractStateStaff.html">
+    <entry file="file://$PROJECT_DIR$/app/njdaFooter.html" />
+    <entry file="file://$PROJECT_DIR$/app/css/awesome-bootstrap-checkbox.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="16" lean-forward="false" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
-          <folding>
-            <element signature="n#div#6;n#fieldset#0;n#form#0;n#div#5;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+        <state relative-caret-position="-2732">
+          <caret line="66" column="16" lean-forward="true" selection-start-line="66" selection-start-column="16" selection-end-line="66" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/njdaHeader.html">
+    <entry file="file://$PROJECT_DIR$/app/css/contractFormStyles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-          <folding>
-            <element signature="e#391#397#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="179" column="1" lean-forward="true" selection-start-line="179" selection-start-column="1" selection-end-line="179" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/njdaFooter.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="18" lean-forward="false" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
-          <folding>
-            <element signature="e#642#647#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/css/njdaFooter.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3995">
-          <caret line="235" column="11" lean-forward="false" selection-start-line="235" selection-start-column="11" selection-end-line="235" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/njdaResources/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6749">
-          <caret line="397" column="21" lean-forward="false" selection-start-line="397" selection-start-column="21" selection-end-line="397" selection-end-column="21" />
-          <folding />
+        <state relative-caret-position="164">
+          <caret line="22" column="17" lean-forward="false" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/njdaHome.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1105">
+        <state relative-caret-position="975">
           <caret line="65" column="13" lean-forward="false" selection-start-line="65" selection-start-column="13" selection-end-line="65" selection-end-column="13" />
-          <folding>
-            <element signature="e#3506#3512#0" expanded="true" />
-            <element signature="e#4849#4855#1" expanded="true" />
-            <element signature="e#5155#5160#0" expanded="true" />
-            <element signature="e#5571#5576#0" expanded="true" />
-            <element signature="e#5805#5810#0" expanded="true" />
-            <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#2;n#ul#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#3;n#ul#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#4;n#ul#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#16925#16931#0" expanded="true" />
-            <element signature="e#16931#16937#0" expanded="true" />
-            <element signature="e#16937#16943#0" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#20276#20282#0" expanded="true" />
-            <element signature="e#20337#20343#1" expanded="true" />
-            <element signature="n#style#0;n#div#6;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#21204#21210#1" expanded="true" />
-            <element signature="e#21297#21303#1" expanded="true" />
-            <element signature="n#style#0;n#div#7;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#21980#21986#1" expanded="true" />
-            <element signature="e#22030#22036#1" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#span#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#23701#23706#0" expanded="true" />
-            <element signature="n#style#0;n#iframe#0;n#p#0;n#div#1;n#div#3;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#26677#26682#0" expanded="true" />
-            <element signature="e#28627#28631#0" expanded="true" />
-            <element signature="e#28634#28638#0" expanded="true" />
-            <element signature="e#28638#28642#0" expanded="true" />
-            <element signature="e#28783#28788#0" expanded="true" />
-            <element signature="e#28800#28805#0" expanded="true" />
-            <element signature="e#28822#28826#0" expanded="true" />
-            <element signature="e#28826#28830#0" expanded="true" />
-            <element signature="e#28834#28838#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/headerEssentials.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="12" lean-forward="false" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/primeTopNavbar.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="33" lean-forward="false" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+        <state relative-caret-position="315">
+          <caret line="21" column="22" lean-forward="false" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/css/njdaFooter.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/njdaResources/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2880">
+          <caret line="192" column="4" lean-forward="false" selection-start-line="192" selection-start-column="4" selection-end-line="192" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/headerEssentials.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="26" lean-forward="false" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/njdaHeader.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower_components/bootstrap-fileinput/.bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-318">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="345" column="14" lean-forward="false" selection-start-line="345" selection-start-column="14" selection-end-line="345" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/primeFooter.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="20" lean-forward="false" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/comVendorContractStateStaff.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="665" column="22" lean-forward="false" selection-start-line="665" selection-start-column="22" selection-end-line="665" selection-end-column="22" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#38795#38800#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/ecasHome.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="155" column="29" lean-forward="true" selection-start-line="155" selection-start-column="29" selection-end-line="155" selection-end-column="29" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-424">
+          <caret line="33" column="23" lean-forward="true" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/css/timesheet-styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="1" lean-forward="false" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/form233StateStaff.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="660" column="40" lean-forward="true" selection-start-line="660" selection-start-column="40" selection-end-line="660" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/comVendorContractForm233.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="251" column="54" lean-forward="true" selection-start-line="241" selection-start-column="48" selection-end-line="251" selection-end-column="54" />
+          <folding>
+            <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#nav#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/manageTimesheet.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="260" column="8" lean-forward="false" selection-start-line="260" selection-start-column="8" selection-end-line="260" selection-end-column="8" />
+          <folding>
+            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
