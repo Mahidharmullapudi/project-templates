@@ -6,7 +6,7 @@ body {
 }
 
 body {
-    margin-top: 100px;
+    /*margin-top: 100px; */
     background-color: #fff;
     overflow-x: hidden;
 }
@@ -49,16 +49,6 @@ header.carousel .fill {
     padding: 0;
     background-color: #fff;
 }
-
-/* @media (min-width: 768px) {
-    #wrapper {
-        padding-left: 125px;
-    }
-
-    #page-wrapper {
-        padding: 10px;
-    }
-} */
 
 /* 404 Page Styles */
 
@@ -109,7 +99,6 @@ header.carousel .fill {
         padding-top: 50px;
         padding-bottom: 40px;
     } */
-
     #sidebar-wrapper {
         position: fixed;
         top: 51px;
@@ -117,7 +106,7 @@ header.carousel .fill {
         width: 150px;
         height: 100%;
         /* Overriding the max-height property of sideNav*/
-        max-height:none;
+        max-height: none;
         margin-left: -150px;
         overflow-y: auto;
         background-color: #114041;
@@ -193,21 +182,14 @@ header.carousel .fill {
     padding: 15px; */
 }
 
-
-
 #sidebar-wrapper.toggled #page-wrapper {
     margin-right: -150px;
 }
 
-.navbar-fixed-top {
-    /*top: 95px; */
-}
-
-#header-frame {
-    top: 0;
+#primary-nav.affix {
     position: fixed;
-    background-color: #FFFFFF;
-    height: 95px;
+    top: 0;
     width: 100%;
+    z-index: 10;
 }
 

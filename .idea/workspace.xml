@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c5e03468-d347-497a-8f12-06cddac667e8" name="Default" comment="Minor updates">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/css/njdaNav.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nbproject/project.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nbproject/project.xml" />
+    <list default="true" id="c5e03468-d347-497a-8f12-06cddac667e8" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/css/timesheet-styles.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/manageTimesheet.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/styles.css" afterPath="$PROJECT_DIR$/app/css/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/ecasHome.html" afterPath="$PROJECT_DIR$/app/ecasHome.html" />
     </list>
     <ignored path="project-templates.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,55 +31,58 @@
       <file leaf-file-name="comVendorContractStateStaff.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/comVendorContractStateStaff.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2363">
-              <caret line="204" column="47" lean-forward="false" selection-start-line="143" selection-start-column="35" selection-end-line="204" selection-end-column="47" />
+            <state relative-caret-position="240">
+              <caret line="665" column="22" lean-forward="false" selection-start-line="665" selection-start-column="22" selection-end-line="665" selection-end-column="22" />
               <folding>
-                <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#fieldset#0;n#form#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#6;n#fieldset#0;n#form#0;n#div#5;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="e#38795#38800#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sideNavToggleable.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/sideNavToggleable.html">
+      <file leaf-file-name="manageTimesheet.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/manageTimesheet.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="377">
+              <caret line="260" column="8" lean-forward="false" selection-start-line="260" selection-start-column="8" selection-end-line="260" selection-end-column="8" />
+              <folding>
+                <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="form233StateStaff.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/form233StateStaff.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="660" column="40" lean-forward="true" selection-start-line="660" selection-start-column="40" selection-end-line="660" selection-end-column="40" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ecasHome.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/ecasHome.html">
+      <file leaf-file-name="comVendorContractForm233.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/comVendorContractForm233.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5280">
-              <caret line="299" column="65" lean-forward="false" selection-start-line="299" selection-start-column="65" selection-end-line="299" selection-end-column="65" />
+            <state relative-caret-position="358">
+              <caret line="251" column="54" lean-forward="true" selection-start-line="241" selection-start-column="48" selection-end-line="251" selection-end-column="54" />
               <folding>
+                <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#nav#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#1;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="njdaNav.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/css/njdaNav.css">
+      <file leaf-file-name="timesheet-styles.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/css/timesheet-styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-60">
-              <caret line="34" column="1" lean-forward="true" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5015">
-              <caret line="295" column="81" lean-forward="false" selection-start-line="295" selection-start-column="81" selection-end-line="295" selection-end-column="81" />
+            <state relative-caret-position="30">
+              <caret line="2" column="1" lean-forward="false" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -94,8 +94,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -118,19 +118,19 @@
       <find>The Official Web Site for The State of New Jersey_files</find>
       <find>./The Official Web Site for The State of New Jersey_files</find>
       <find>/njdaResources</find>
-      <find>header</find>
-      <find>logo</find>
       <find>menu-wrap</find>
       <find>search</find>
       <find>script</find>
       <find>seal</find>
-      <find>prime</find>
-      <find>styles</find>
-      <find>nav</find>
-      <find>wrapper</find>
-      <find>#page-wrapper</find>
+      <find>menus</find>
+      <find>input</find>
+      <find>second-footer-frame</find>
       <find>footer</find>
-      <find>njdana</find>
+      <find>logo</find>
+      <find>navbar-fixed-top</find>
+      <find>header</find>
+      <find>page-header</find>
+      <find>date</find>
     </findStrings>
     <replaceStrings>
       <replace>col-md-11</replace>
@@ -167,8 +167,10 @@
         <option value="$PROJECT_DIR$/app/amexPaymentPage.html" />
         <option value="$PROJECT_DIR$/app/progressbar.html" />
         <option value="$PROJECT_DIR$/app/commercialVendorContractSummary.html" />
+        <option value="$PROJECT_DIR$/app/css/contractFormStyles.css" />
         <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/comVendorContractStateStaff.html" />
+        <option value="$PROJECT_DIR$/app/ecasHome.html" />
         <option value="$PROJECT_DIR$/app/chargesAndBillings.html" />
         <option value="$PROJECT_DIR$/app/form233StateStaff.html" />
         <option value="$PROJECT_DIR$/app/chargesAndBillingsStateStaff.html" />
@@ -178,19 +180,17 @@
         <option value="$PROJECT_DIR$/app/headerEssentials.js" />
         <option value="$PROJECT_DIR$/app/headerEssentials.html" />
         <option value="$PROJECT_DIR$/app/njdaHome.html" />
-        <option value="$PROJECT_DIR$/app/njdaResources/style.css" />
-        <option value="$PROJECT_DIR$/app/comVendorContractForm233.html" />
-        <option value="$PROJECT_DIR$/app/css/contractFormStyles.css" />
-        <option value="$PROJECT_DIR$/app/njdaHeader.html" />
-        <option value="$PROJECT_DIR$/app/njdaResources/nav.css" />
-        <option value="$PROJECT_DIR$/app/css/njdaNav.css" />
         <option value="$PROJECT_DIR$/app/njdaFooter.html" />
-        <option value="$PROJECT_DIR$/app/samplebootply.html" />
-        <option value="$PROJECT_DIR$/app/comVendorContractStateStaff.html" />
-        <option value="$PROJECT_DIR$/app/css/njdaFooter.css" />
+        <option value="$PROJECT_DIR$/app/comVendorContractForm233.html" />
         <option value="$PROJECT_DIR$/app/primeFooter.html" />
+        <option value="$PROJECT_DIR$/app/primeTopNavbar.html" />
+        <option value="$PROJECT_DIR$/app/comVendorContractStateStaff.html" />
+        <option value="$PROJECT_DIR$/app/njdaResources/style.css" />
+        <option value="$PROJECT_DIR$/app/css/njdaFooter.css" />
+        <option value="$PROJECT_DIR$/app/njdaHeader.html" />
         <option value="$PROJECT_DIR$/app/css/styles.css" />
-        <option value="$PROJECT_DIR$/app/ecasHome.html" />
+        <option value="$PROJECT_DIR$/app/css/timesheet-styles.css" />
+        <option value="$PROJECT_DIR$/app/manageTimesheet.html" />
       </list>
     </option>
   </component>
@@ -201,10 +201,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1176" />
+    <option name="width" value="1280" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -222,6 +220,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -234,23 +233,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project-templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project-templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -263,18 +247,19 @@
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app" />
-      <recent name="C:\Users\agamull\Documents\Mahi-Documents\WebstormProjects\project-templates\app" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\agamull\WebstormProjects\project-templates\app\img" />
       <recent name="C:\Users\agamull\WebstormProjects\project-templates\app\njdaResources" />
       <recent name="C:\Users\agamull\Documents\Mahi-Documents\WebstormProjects\project-templates\app\css" />
       <recent name="C:\Users\agamull\Documents\Mahi-Documents\WebstormProjects\project-templates\app\amexcss" />
       <recent name="$PROJECT_DIR$/app/img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app" />
+      <recent name="C:\Users\agamull\Documents\Mahi-Documents\WebstormProjects\project-templates\app" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -289,7 +274,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
+  <component name="RunManager" selected="JavaScript Debug.commercialVendorContract.html">
     <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/project-templates/app/index.html">
       <method />
     </configuration>
@@ -380,10 +365,10 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.commercialVendorContract.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.ecasHome.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.snearsHome.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.commercialVendorContract.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.ecasHome.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.snearsHome.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
         <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.sidebar.html" />
       </list>
     </recent_temporary>
@@ -422,26 +407,14 @@
       <workItem from="1480468877364" duration="7630000" />
       <workItem from="1480693976280" duration="12790000" />
       <workItem from="1480961640899" duration="2037000" />
-      <workItem from="1481207793937" duration="15406000" />
-      <workItem from="1481292419927" duration="2007000" />
-      <workItem from="1481725395821" duration="30000" />
-      <workItem from="1481725479976" duration="6210000" />
-      <workItem from="1481844717062" duration="684000" />
-      <workItem from="1482338916780" duration="2394000" />
-      <workItem from="1482957845595" duration="1450000" />
-      <workItem from="1483109119783" duration="4824000" />
-      <workItem from="1484246818330" duration="1676000" />
-      <workItem from="1485186463397" duration="53000" />
-      <workItem from="1485186528309" duration="64000" />
-      <workItem from="1485195445859" duration="3527000" />
-      <workItem from="1485288779765" duration="1371000" />
-      <workItem from="1485302271205" duration="489000" />
-      <workItem from="1485447817734" duration="1250000" />
-      <workItem from="1487707676033" duration="28000" />
-      <workItem from="1490215235413" duration="615000" />
-      <workItem from="1490227528392" duration="603000" />
-      <workItem from="1491344647670" duration="54000" />
-      <workItem from="1491399530673" duration="100000" />
+      <workItem from="1480995315256" duration="2187000" />
+      <workItem from="1481240379050" duration="7815000" />
+      <workItem from="1481346348613" duration="755000" />
+      <workItem from="1482539919896" duration="1206000" />
+      <workItem from="1483200483515" duration="551000" />
+      <workItem from="1484792436646" duration="281000" />
+      <workItem from="1490502023900" duration="68000" />
+      <workItem from="1491362707422" duration="6446000" />
     </task>
     <task id="LOCAL-00001" summary="Updating the services HTML">
       <created>1477508172116</created>
@@ -485,39 +458,46 @@
       <option name="project" value="LOCAL" />
       <updated>1480565426041</updated>
     </task>
-    <task id="LOCAL-00007" summary="Added a new page for contractForm#233 and also another page for Contracts summary">
-      <created>1481234351360</created>
+    <task id="LOCAL-00007" summary="Updated code on the Menus section of Form#233">
+      <created>1480997932053</created>
       <option name="number" value="00007" />
       <option name="presentableId" value="LOCAL-00007" />
       <option name="project" value="LOCAL" />
-      <updated>1481234351360</updated>
+      <updated>1480997932053</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Updated code on the Menus section of Form#233">
+      <created>1481257573068</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1481257573068</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="168715000" />
+    <option name="totallyTimeSpent" value="145189000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1176" extended-state="0" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14739583" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31640625" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21182944" sideWeight="0.503125" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13204952" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21182944" sideWeight="0.496875" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.08809747" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3045923" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12557288" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12557288" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -559,14 +539,19 @@
     <MESSAGE value="Added a new page for Commercial Vendor Contract screen.&#10;Updated css for the contractFormStyles&#10;" />
     <MESSAGE value="Added new pages for Internal users to provide the capability to approve and disapprove a contract and also other updates to current pages." />
     <MESSAGE value="Added a new page for contractForm#233 and also another page for Contracts summary" />
-    <MESSAGE value="Minor updates" />
-    <option name="LAST_COMMIT_MESSAGE" value="Minor updates" />
+    <MESSAGE value="Updated code on the Menus section of Form#233" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated code on the Menus section of Form#233" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/img/img-cor4.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/img/img-cor3.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -621,17 +606,17 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/css/common_default_v3.5.css" />
-    <entry file="file://$PROJECT_DIR$/app/css/awesome-bootstrap-checkbox.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="66" column="16" lean-forward="true" selection-start-line="66" selection-start-column="16" selection-end-line="66" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/sidebar.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
           <caret line="39" column="26" lean-forward="false" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/commercialVendorContractSummary.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="318" column="0" lean-forward="false" selection-start-line="318" selection-start-column="0" selection-end-line="318" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -656,13 +641,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/form233StateStaff.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10591">
-          <caret line="623" column="0" lean-forward="false" selection-start-line="623" selection-start-column="0" selection-end-line="623" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/chargesAndBillingsStateStaff.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4165">
@@ -678,6 +656,7 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/headerEssentials.js" />
     <entry file="file://$PROJECT_DIR$/bower_components/bootstrap/dist/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="426">
@@ -692,137 +671,147 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/commercialVendorContractSummary.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="291" column="26" lean-forward="true" selection-start-line="291" selection-start-column="26" selection-end-line="291" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/njdaResources/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="666" column="25" lean-forward="true" selection-start-line="666" selection-start-column="25" selection-end-line="666" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/primeTopNavbar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="777">
-          <caret line="37" column="58" lean-forward="false" selection-start-line="37" selection-start-column="58" selection-end-line="37" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/headerEssentials.js" />
-    <entry file="file://$PROJECT_DIR$/app/headerEssentials.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="12" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/njdaHeader.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="6" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/samplebootply.html" />
-    <entry file="file://$PROJECT_DIR$/app/njdaResources/nav.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1887">
-          <caret line="18" column="49" lean-forward="false" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/njdaFooter.html" />
-    <entry file="file://$PROJECT_DIR$/app/njdaHome.html">
+    <entry file="file://$PROJECT_DIR$/app/css/awesome-bootstrap-checkbox.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/primeFooter.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="21" lean-forward="false" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+        <state relative-caret-position="-2732">
+          <caret line="66" column="16" lean-forward="true" selection-start-line="66" selection-start-column="16" selection-end-line="66" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/css/contractFormStyles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="32" lean-forward="false" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+        <state relative-caret-position="164">
+          <caret line="22" column="17" lean-forward="false" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/njdaHome.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="975">
+          <caret line="65" column="13" lean-forward="false" selection-start-line="65" selection-start-column="13" selection-end-line="65" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/primeTopNavbar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="22" lean-forward="false" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/css/njdaFooter.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="725">
-          <caret line="231" column="22" lean-forward="false" selection-start-line="231" selection-start-column="22" selection-end-line="231" selection-end-column="22" />
+        <state relative-caret-position="240">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/css/styles.css">
+    <entry file="file://$PROJECT_DIR$/app/njdaResources/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="657">
-          <caret line="213" column="0" lean-forward="true" selection-start-line="213" selection-start-column="0" selection-end-line="213" selection-end-column="0" />
+        <state relative-caret-position="2880">
+          <caret line="192" column="4" lean-forward="false" selection-start-line="192" selection-start-column="4" selection-end-line="192" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/headerEssentials.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="26" lean-forward="false" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/njdaHeader.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower_components/bootstrap-fileinput/.bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-318">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="345" column="14" lean-forward="false" selection-start-line="345" selection-start-column="14" selection-end-line="345" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/primeFooter.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="20" lean-forward="false" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/comVendorContractStateStaff.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2363">
-          <caret line="204" column="47" lean-forward="false" selection-start-line="143" selection-start-column="35" selection-end-line="204" selection-end-column="47" />
+        <state relative-caret-position="240">
+          <caret line="665" column="22" lean-forward="false" selection-start-line="665" selection-start-column="22" selection-end-line="665" selection-end-column="22" />
           <folding>
-            <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#fieldset#0;n#form#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#6;n#fieldset#0;n#form#0;n#div#5;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#38795#38800#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/sideNavToggleable.html">
+    <entry file="file://$PROJECT_DIR$/app/ecasHome.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="315">
+          <caret line="155" column="29" lean-forward="true" selection-start-line="155" selection-start-column="29" selection-end-line="155" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-424">
+          <caret line="33" column="23" lean-forward="true" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/css/timesheet-styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="1" lean-forward="false" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/form233StateStaff.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="660" column="40" lean-forward="true" selection-start-line="660" selection-start-column="40" selection-end-line="660" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/comVendorContractForm233.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="885">
-          <caret line="645" column="39" lean-forward="false" selection-start-line="645" selection-start-column="39" selection-end-line="645" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5015">
-          <caret line="295" column="81" lean-forward="false" selection-start-line="295" selection-start-column="81" selection-end-line="295" selection-end-column="81" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/ecasHome.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5280">
-          <caret line="299" column="65" lean-forward="false" selection-start-line="299" selection-start-column="65" selection-end-line="299" selection-end-column="65" />
+        <state relative-caret-position="358">
+          <caret line="251" column="54" lean-forward="true" selection-start-line="241" selection-start-column="48" selection-end-line="251" selection-end-column="54" />
           <folding>
+            <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#nav#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#1;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/css/njdaNav.css">
+    <entry file="file://$PROJECT_DIR$/app/manageTimesheet.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-60">
-          <caret line="34" column="1" lean-forward="true" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
-          <folding />
+        <state relative-caret-position="377">
+          <caret line="260" column="8" lean-forward="false" selection-start-line="260" selection-start-column="8" selection-end-line="260" selection-end-column="8" />
+          <folding>
+            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
